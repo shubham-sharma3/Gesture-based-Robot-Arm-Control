@@ -1,0 +1,222 @@
+[0.000000] (-) TimerEvent: {}
+[0.000285] (-) JobUnselected: {'identifier': 'chomp_motion_planner'}
+[0.000410] (-) JobUnselected: {'identifier': 'launch_param_builder'}
+[0.000426] (-) JobUnselected: {'identifier': 'moveit'}
+[0.000436] (-) JobUnselected: {'identifier': 'moveit2_tutorials'}
+[0.000443] (-) JobUnselected: {'identifier': 'moveit_chomp_optimizer_adapter'}
+[0.000461] (-) JobUnselected: {'identifier': 'moveit_common'}
+[0.000468] (-) JobUnselected: {'identifier': 'moveit_configs_utils'}
+[0.000476] (-) JobUnselected: {'identifier': 'moveit_core'}
+[0.000483] (-) JobUnselected: {'identifier': 'moveit_hybrid_planning'}
+[0.000490] (-) JobUnselected: {'identifier': 'moveit_kinematics'}
+[0.000497] (-) JobUnselected: {'identifier': 'moveit_planners'}
+[0.000505] (-) JobUnselected: {'identifier': 'moveit_planners_chomp'}
+[0.000512] (-) JobUnselected: {'identifier': 'moveit_planners_ompl'}
+[0.000519] (-) JobUnselected: {'identifier': 'moveit_plugins'}
+[0.000535] (-) JobUnselected: {'identifier': 'moveit_resources'}
+[0.000548] (-) JobUnselected: {'identifier': 'moveit_resources_fanuc_description'}
+[0.000565] (-) JobUnselected: {'identifier': 'moveit_resources_fanuc_moveit_config'}
+[0.000574] (-) JobUnselected: {'identifier': 'moveit_resources_panda_description'}
+[0.000803] (-) JobUnselected: {'identifier': 'moveit_resources_panda_moveit_config'}
+[0.000813] (-) JobUnselected: {'identifier': 'moveit_resources_pr2_description'}
+[0.000821] (-) JobUnselected: {'identifier': 'moveit_resources_prbt_ikfast_manipulator_plugin'}
+[0.000828] (-) JobUnselected: {'identifier': 'moveit_resources_prbt_moveit_config'}
+[0.000836] (-) JobUnselected: {'identifier': 'moveit_resources_prbt_pg70_support'}
+[0.000843] (-) JobUnselected: {'identifier': 'moveit_resources_prbt_support'}
+[0.000850] (-) JobUnselected: {'identifier': 'moveit_ros'}
+[0.000857] (-) JobUnselected: {'identifier': 'moveit_ros_benchmarks'}
+[0.000869] (-) JobUnselected: {'identifier': 'moveit_ros_control_interface'}
+[0.000880] (-) JobUnselected: {'identifier': 'moveit_ros_move_group'}
+[0.000921] (-) JobUnselected: {'identifier': 'moveit_ros_occupancy_map_monitor'}
+[0.000929] (-) JobUnselected: {'identifier': 'moveit_ros_perception'}
+[0.000936] (-) JobUnselected: {'identifier': 'moveit_ros_planning'}
+[0.000943] (-) JobUnselected: {'identifier': 'moveit_ros_planning_interface'}
+[0.000951] (-) JobUnselected: {'identifier': 'moveit_ros_robot_interaction'}
+[0.000958] (-) JobUnselected: {'identifier': 'moveit_ros_visualization'}
+[0.000972] (-) JobUnselected: {'identifier': 'moveit_ros_warehouse'}
+[0.000979] (-) JobUnselected: {'identifier': 'moveit_runtime'}
+[0.000987] (-) JobUnselected: {'identifier': 'moveit_servo'}
+[0.000994] (-) JobUnselected: {'identifier': 'moveit_setup_app_plugins'}
+[0.001001] (-) JobUnselected: {'identifier': 'moveit_setup_assistant'}
+[0.001008] (-) JobUnselected: {'identifier': 'moveit_setup_controllers'}
+[0.001038] (-) JobUnselected: {'identifier': 'moveit_setup_core_plugins'}
+[0.001046] (-) JobUnselected: {'identifier': 'moveit_setup_framework'}
+[0.001053] (-) JobUnselected: {'identifier': 'moveit_setup_srdf_plugins'}
+[0.001162] (-) JobUnselected: {'identifier': 'moveit_simple_controller_manager'}
+[0.001175] (-) JobUnselected: {'identifier': 'moveit_task_constructor_capabilities'}
+[0.001193] (-) JobUnselected: {'identifier': 'moveit_task_constructor_core'}
+[0.001201] (-) JobUnselected: {'identifier': 'moveit_task_constructor_demo'}
+[0.001955] (-) JobUnselected: {'identifier': 'moveit_task_constructor_msgs'}
+[0.002006] (-) JobUnselected: {'identifier': 'moveit_task_constructor_visualization'}
+[0.002017] (-) JobUnselected: {'identifier': 'moveit_visual_tools'}
+[0.002025] (-) JobUnselected: {'identifier': 'pilz_industrial_motion_planner'}
+[0.002070] (-) JobUnselected: {'identifier': 'pilz_industrial_motion_planner_testutils'}
+[0.002320] (-) JobUnselected: {'identifier': 'rosparam_shortcuts'}
+[0.002411] (-) JobUnselected: {'identifier': 'rviz_marker_tools'}
+[0.002420] (-) JobUnselected: {'identifier': 'srdfdom'}
+[0.002429] (move_arm) JobQueued: {'identifier': 'move_arm', 'dependencies': OrderedDict([('launch_param_builder', '/home/rosuser/ros2_ws/ws_moveit/install/launch_param_builder'), ('moveit_common', '/home/rosuser/ros2_ws/ws_moveit/install/moveit_common'), ('moveit_resources_fanuc_description', '/home/rosuser/ros2_ws/ws_moveit/install/moveit_resources_fanuc_description'), ('moveit_resources_panda_description', '/home/rosuser/ros2_ws/ws_moveit/install/moveit_resources_panda_description'), ('moveit_resources_pr2_description', '/home/rosuser/ros2_ws/ws_moveit/install/moveit_resources_pr2_description'), ('srdfdom', '/home/rosuser/ros2_ws/ws_moveit/install/srdfdom'), ('moveit_configs_utils', '/home/rosuser/ros2_ws/ws_moveit/install/moveit_configs_utils'), ('moveit_resources_fanuc_moveit_config', '/home/rosuser/ros2_ws/ws_moveit/install/moveit_resources_fanuc_moveit_config'), ('moveit_resources_panda_moveit_config', '/home/rosuser/ros2_ws/ws_moveit/install/moveit_resources_panda_moveit_config'), ('moveit_core', '/home/rosuser/ros2_ws/ws_moveit/install/moveit_core'), ('moveit_ros_occupancy_map_monitor', '/home/rosuser/ros2_ws/ws_moveit/install/moveit_ros_occupancy_map_monitor'), ('moveit_simple_controller_manager', '/home/rosuser/ros2_ws/ws_moveit/install/moveit_simple_controller_manager'), ('moveit_ros_planning', '/home/rosuser/ros2_ws/ws_moveit/install/moveit_ros_planning'), ('moveit_kinematics', '/home/rosuser/ros2_ws/ws_moveit/install/moveit_kinematics'), ('moveit_planners_ompl', '/home/rosuser/ros2_ws/ws_moveit/install/moveit_planners_ompl'), ('moveit_ros_warehouse', '/home/rosuser/ros2_ws/ws_moveit/install/moveit_ros_warehouse'), ('moveit_ros_move_group', '/home/rosuser/ros2_ws/ws_moveit/install/moveit_ros_move_group'), ('moveit_ros_planning_interface', '/home/rosuser/ros2_ws/ws_moveit/install/moveit_ros_planning_interface')])}
+[0.002462] (move_arm) JobStarted: {'identifier': 'move_arm'}
+[0.057720] (move_arm) JobProgress: {'identifier': 'move_arm', 'progress': 'cmake'}
+[0.058340] (move_arm) JobProgress: {'identifier': 'move_arm', 'progress': 'build'}
+[0.059661] (move_arm) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/rosuser/ros2_ws/ws_moveit/build/move_arm', '--', '-j8', '-l8'], 'cwd': '/home/rosuser/ros2_ws/ws_moveit/build/move_arm', 'env': OrderedDict([('HOSTNAME', 'shoobie'), ('GIT_ASKPASS', '/home/rosuser/.cursor-server/bin/7801a556824585b7f2721900066bc87c4a09b740/extensions/git/dist/askpass.sh'), ('SHLVL', '2'), ('LD_LIBRARY_PATH', '/home/rosuser/ros2_ws/ws_moveit/install/moveit_ros_planning_interface/lib:/home/rosuser/ros2_ws/ws_moveit/install/moveit_ros_move_group/lib:/home/rosuser/ros2_ws/ws_moveit/install/moveit_ros_warehouse/lib:/home/rosuser/ros2_ws/ws_moveit/install/moveit_planners_ompl/lib:/home/rosuser/ros2_ws/ws_moveit/install/moveit_kinematics/lib:/home/rosuser/ros2_ws/ws_moveit/install/moveit_ros_planning/lib:/home/rosuser/ros2_ws/ws_moveit/install/moveit_simple_controller_manager/lib:/home/rosuser/ros2_ws/ws_moveit/install/moveit_ros_occupancy_map_monitor/lib:/home/rosuser/ros2_ws/ws_moveit/install/moveit_core/lib:/home/rosuser/ros2_ws/ws_moveit/install/srdfdom/lib:/home/rosuser/ros2_ws/ws_moveit/install/pilz_industrial_motion_planner_testutils/lib:/home/rosuser/ros2_ws/ws_moveit/install/pilz_industrial_motion_planner/lib:/home/rosuser/ros2_ws/ws_moveit/install/moveit_visual_tools/lib:/home/rosuser/ros2_ws/ws_moveit/install/moveit_task_constructor_visualization/lib:/home/rosuser/ros2_ws/ws_moveit/install/moveit_task_constructor_demo/lib:/home/rosuser/ros2_ws/ws_moveit/install/moveit_task_constructor_capabilities/lib:/home/rosuser/ros2_ws/ws_moveit/install/moveit_task_constructor_core/lib:/home/rosuser/ros2_ws/ws_moveit/install/moveit_ros_control_interface/lib:/home/rosuser/ros2_ws/ws_moveit/install/moveit_setup_assistant/lib:/home/rosuser/ros2_ws/ws_moveit/install/moveit_setup_srdf_plugins/lib:/home/rosuser/ros2_ws/ws_moveit/install/moveit_setup_core_plugins/lib:/home/rosuser/ros2_ws/ws_moveit/install/moveit_setup_controllers/lib:/home/rosuser/ros2_ws/ws_moveit/install/moveit_setup_app_plugins/lib:/home/rosuser/ros2_ws/ws_moveit/install/moveit_setup_framework/lib:/home/rosuser/ros2_ws/ws_moveit/install/moveit_servo/lib:/home/rosuser/ros2_ws/ws_moveit/install/moveit_ros_visualization/lib:/home/rosuser/ros2_ws/ws_moveit/install/moveit_hybrid_planning/lib:/home/rosuser/ros2_ws/ws_moveit/install/moveit_ros_benchmarks/lib:/home/rosuser/ros2_ws/ws_moveit/install/moveit_ros_robot_interaction/lib:/home/rosuser/ros2_ws/ws_moveit/install/moveit_ros_perception/lib:/home/rosuser/ros2_ws/ws_moveit/install/moveit_resources_prbt_ikfast_manipulator_plugin/lib:/home/rosuser/ros2_ws/ws_moveit/install/moveit_planners_chomp/lib:/home/rosuser/ros2_ws/ws_moveit/install/moveit_chomp_optimizer_adapter/lib:/home/rosuser/ros2_ws/ws_moveit/install/chomp_motion_planner/lib:/home/rosuser/ros2_ws/ws_moveit/install/rviz_marker_tools/lib:/home/rosuser/ros2_ws/ws_moveit/install/rosparam_shortcuts/lib:/home/rosuser/ros2_ws/ws_moveit/install/moveit_task_constructor_msgs/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib'), ('BROWSER', '/home/rosuser/.cursor-server/bin/7801a556824585b7f2721900066bc87c4a09b740/bin/helpers/browser.sh'), ('HOME', '/home/rosuser'), ('OLDPWD', '/home/rosuser/ros2_ws/ws_moveit/src'), ('TERM_PROGRAM_VERSION', '0.48.8'), ('VSCODE_IPC_HOOK_CLI', '/tmp/vscode-ipc-83055bfb-11ba-4fd1-9858-b6735e497b90.sock'), ('ROS_PYTHON_VERSION', '3'), ('VSCODE_GIT_ASKPASS_MAIN', '/home/rosuser/.cursor-server/bin/7801a556824585b7f2721900066bc87c4a09b740/extensions/git/dist/askpass-main.js'), ('VSCODE_GIT_ASKPASS_NODE', '/home/rosuser/.cursor-server/bin/7801a556824585b7f2721900066bc87c4a09b740/node'), ('COLORTERM', 'truecolor'), ('REMOTE_CONTAINERS', 'true'), ('COLCON_PREFIX_PATH', '/home/rosuser/ros2_ws/ws_moveit/install'), ('ROS_DISTRO', 'humble'), ('REMOTE_CONTAINERS_IPC', '/tmp/vscode-remote-containers-ipc-79e150e9-b381-4e69-b6ab-19fbd641a8ae.sock'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm-256color'), ('ROS_LOCALHOST_ONLY', '0'), ('QT_X11_NO_MITSHM', '1'), ('PATH', '/home/rosuser/ros2_ws/ws_moveit/install/moveit_core/bin:/home/rosuser/.cursor-server/bin/7801a556824585b7f2721900066bc87c4a09b740/bin/remote-cli:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'), ('REMOTE_CONTAINERS_SOCKETS', '["/tmp/vscode-ssh-auth-79e150e9-b381-4e69-b6ab-19fbd641a8ae.sock","/home/rosuser/.gnupg/S.gpg-agent"]'), ('DISPLAY', ':1'), ('LANG', 'C.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/tmp/vscode-git-eb519972f4.sock'), ('TERM_PROGRAM', 'vscode'), ('SSH_AUTH_SOCK', '/tmp/vscode-ssh-auth-79e150e9-b381-4e69-b6ab-19fbd641a8ae.sock'), ('AMENT_PREFIX_PATH', '/home/rosuser/ros2_ws/ws_moveit/install/moveit_configs_utils:/home/rosuser/ros2_ws/ws_moveit/install/launch_param_builder:/home/rosuser/ros2_ws/ws_moveit/install/pilz_industrial_motion_planner_testutils:/home/rosuser/ros2_ws/ws_moveit/install/moveit_runtime:/home/rosuser/ros2_ws/ws_moveit/install/moveit2_tutorials:/home/rosuser/ros2_ws/ws_moveit/install/moveit:/home/rosuser/ros2_ws/ws_moveit/install/moveit_planners:/home/rosuser/ros2_ws/ws_moveit/install/pilz_industrial_motion_planner:/home/rosuser/ros2_ws/ws_moveit/install/moveit_visual_tools:/home/rosuser/ros2_ws/ws_moveit/install/moveit_task_constructor_visualization:/home/rosuser/ros2_ws/ws_moveit/install/moveit_task_constructor_demo:/home/rosuser/ros2_ws/ws_moveit/install/moveit_task_constructor_capabilities:/home/rosuser/ros2_ws/ws_moveit/install/moveit_task_constructor_core:/home/rosuser/ros2_ws/ws_moveit/install/moveit_ros_control_interface:/home/rosuser/ros2_ws/ws_moveit/install/moveit_plugins:/home/rosuser/ros2_ws/ws_moveit/install/moveit_simple_controller_manager:/home/rosuser/ros2_ws/ws_moveit/install/moveit_setup_assistant:/home/rosuser/ros2_ws/ws_moveit/install/moveit_setup_srdf_plugins:/home/rosuser/ros2_ws/ws_moveit/install/moveit_setup_core_plugins:/home/rosuser/ros2_ws/ws_moveit/install/moveit_setup_controllers:/home/rosuser/ros2_ws/ws_moveit/install/moveit_setup_app_plugins:/home/rosuser/ros2_ws/ws_moveit/install/moveit_setup_framework:/home/rosuser/ros2_ws/ws_moveit/install/moveit_servo:/home/rosuser/ros2_ws/ws_moveit/install/moveit_ros:/home/rosuser/ros2_ws/ws_moveit/install/moveit_ros_visualization:/home/rosuser/ros2_ws/ws_moveit/install/moveit_hybrid_planning:/home/rosuser/ros2_ws/ws_moveit/install/moveit_ros_planning_interface:/home/rosuser/ros2_ws/ws_moveit/install/moveit_ros_benchmarks:/home/rosuser/ros2_ws/ws_moveit/install/moveit_ros_warehouse:/home/rosuser/ros2_ws/ws_moveit/install/moveit_ros_robot_interaction:/home/rosuser/ros2_ws/ws_moveit/install/moveit_ros_perception:/home/rosuser/ros2_ws/ws_moveit/install/moveit_resources_prbt_pg70_support:/home/rosuser/ros2_ws/ws_moveit/install/moveit_resources_prbt_moveit_config:/home/rosuser/ros2_ws/ws_moveit/install/moveit_ros_move_group:/home/rosuser/ros2_ws/ws_moveit/install/moveit_planners_ompl:/home/rosuser/ros2_ws/ws_moveit/install/moveit_ros_planning:/home/rosuser/ros2_ws/ws_moveit/install/moveit_ros_occupancy_map_monitor:/home/rosuser/ros2_ws/ws_moveit/install/moveit_resources_prbt_ikfast_manipulator_plugin:/home/rosuser/ros2_ws/ws_moveit/install/moveit_planners_chomp:/home/rosuser/ros2_ws/ws_moveit/install/moveit_kinematics:/home/rosuser/ros2_ws/ws_moveit/install/moveit_chomp_optimizer_adapter:/home/rosuser/ros2_ws/ws_moveit/install/chomp_motion_planner:/home/rosuser/ros2_ws/ws_moveit/install/moveit_core:/home/rosuser/ros2_ws/ws_moveit/install/srdfdom:/home/rosuser/ros2_ws/ws_moveit/install/rviz_marker_tools:/home/rosuser/ros2_ws/ws_moveit/install/rosparam_shortcuts:/home/rosuser/ros2_ws/ws_moveit/install/moveit_task_constructor_msgs:/home/rosuser/ros2_ws/ws_moveit/install/moveit_resources_prbt_support:/home/rosuser/ros2_ws/ws_moveit/install/moveit_resources:/home/rosuser/ros2_ws/ws_moveit/install/moveit_resources_pr2_description:/home/rosuser/ros2_ws/ws_moveit/install/moveit_resources_panda_moveit_config:/home/rosuser/ros2_ws/ws_moveit/install/moveit_resources_panda_description:/home/rosuser/ros2_ws/ws_moveit/install/moveit_resources_fanuc_moveit_config:/home/rosuser/ros2_ws/ws_moveit/install/moveit_resources_fanuc_description:/home/rosuser/ros2_ws/ws_moveit/install/moveit_common:/opt/ros/humble'), ('DEBIAN_FRONTEND', 'noninteractive'), ('SHELL', '/bin/bash'), ('CMAKE_MODULE_PATH', '/home/rosuser/ros2_ws/ws_moveit/install/moveit_task_constructor_core/share/moveit_task_constructor_core/cmake'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('PWD', '/home/rosuser/ros2_ws/ws_moveit/build/move_arm'), ('LC_ALL', 'C.UTF-8'), ('PYTHONPATH', '/home/rosuser/ros2_ws/ws_moveit/install/moveit_configs_utils/lib/python3.10/site-packages:/home/rosuser/ros2_ws/ws_moveit/install/launch_param_builder/lib/python3.10/site-packages:/home/rosuser/ros2_ws/ws_moveit/install/moveit_task_constructor_core/local/lib/python3.10/dist-packages:/home/rosuser/ros2_ws/ws_moveit/install/srdfdom/local/lib/python3.10/dist-packages:/home/rosuser/ros2_ws/ws_moveit/install/moveit_task_constructor_msgs/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/rosuser/ros2_ws/ws_moveit/install/moveit_ros_planning_interface:/home/rosuser/ros2_ws/ws_moveit/install/moveit_ros_move_group:/home/rosuser/ros2_ws/ws_moveit/install/moveit_ros_warehouse:/home/rosuser/ros2_ws/ws_moveit/install/moveit_planners_ompl:/home/rosuser/ros2_ws/ws_moveit/install/moveit_kinematics:/home/rosuser/ros2_ws/ws_moveit/install/moveit_ros_planning:/home/rosuser/ros2_ws/ws_moveit/install/moveit_simple_controller_manager:/home/rosuser/ros2_ws/ws_moveit/install/moveit_ros_occupancy_map_monitor:/home/rosuser/ros2_ws/ws_moveit/install/moveit_core:/home/rosuser/ros2_ws/ws_moveit/install/moveit_resources_panda_moveit_config:/home/rosuser/ros2_ws/ws_moveit/install/moveit_resources_fanuc_moveit_config:/home/rosuser/ros2_ws/ws_moveit/install/srdfdom:/home/rosuser/ros2_ws/ws_moveit/install/moveit_resources_pr2_description:/home/rosuser/ros2_ws/ws_moveit/install/moveit_resources_panda_description:/home/rosuser/ros2_ws/ws_moveit/install/moveit_resources_fanuc_description:/home/rosuser/ros2_ws/ws_moveit/install/moveit_common:/home/rosuser/ros2_ws/ws_moveit/install/pilz_industrial_motion_planner_testutils:/home/rosuser/ros2_ws/ws_moveit/install/moveit_runtime:/home/rosuser/ros2_ws/ws_moveit/install/moveit2_tutorials:/home/rosuser/ros2_ws/ws_moveit/install/moveit:/home/rosuser/ros2_ws/ws_moveit/install/moveit_planners:/home/rosuser/ros2_ws/ws_moveit/install/pilz_industrial_motion_planner:/home/rosuser/ros2_ws/ws_moveit/install/moveit_visual_tools:/home/rosuser/ros2_ws/ws_moveit/install/moveit_task_constructor_visualization:/home/rosuser/ros2_ws/ws_moveit/install/moveit_task_constructor_demo:/home/rosuser/ros2_ws/ws_moveit/install/moveit_task_constructor_capabilities:/home/rosuser/ros2_ws/ws_moveit/install/moveit_task_constructor_core:/home/rosuser/ros2_ws/ws_moveit/install/moveit_ros_control_interface:/home/rosuser/ros2_ws/ws_moveit/install/moveit_plugins:/home/rosuser/ros2_ws/ws_moveit/install/moveit_setup_assistant:/home/rosuser/ros2_ws/ws_moveit/install/moveit_setup_srdf_plugins:/home/rosuser/ros2_ws/ws_moveit/install/moveit_setup_core_plugins:/home/rosuser/ros2_ws/ws_moveit/install/moveit_setup_controllers:/home/rosuser/ros2_ws/ws_moveit/install/moveit_setup_app_plugins:/home/rosuser/ros2_ws/ws_moveit/install/moveit_setup_framework:/home/rosuser/ros2_ws/ws_moveit/install/moveit_servo:/home/rosuser/ros2_ws/ws_moveit/install/moveit_ros:/home/rosuser/ros2_ws/ws_moveit/install/moveit_ros_visualization:/home/rosuser/ros2_ws/ws_moveit/install/moveit_hybrid_planning:/home/rosuser/ros2_ws/ws_moveit/install/moveit_ros_benchmarks:/home/rosuser/ros2_ws/ws_moveit/install/moveit_ros_robot_interaction:/home/rosuser/ros2_ws/ws_moveit/install/moveit_ros_perception:/home/rosuser/ros2_ws/ws_moveit/install/moveit_resources_prbt_pg70_support:/home/rosuser/ros2_ws/ws_moveit/install/moveit_resources_prbt_moveit_config:/home/rosuser/ros2_ws/ws_moveit/install/moveit_resources_prbt_ikfast_manipulator_plugin:/home/rosuser/ros2_ws/ws_moveit/install/moveit_planners_chomp:/home/rosuser/ros2_ws/ws_moveit/install/moveit_chomp_optimizer_adapter:/home/rosuser/ros2_ws/ws_moveit/install/chomp_motion_planner:/home/rosuser/ros2_ws/ws_moveit/install/rviz_marker_tools:/home/rosuser/ros2_ws/ws_moveit/install/rosparam_shortcuts:/home/rosuser/ros2_ws/ws_moveit/install/moveit_task_constructor_msgs:/home/rosuser/ros2_ws/ws_moveit/install/moveit_resources_prbt_support:/home/rosuser/ros2_ws/ws_moveit/install/moveit_resources:/home/rosuser/ros2_ws/ws_moveit/install/moveit_configs_utils:/home/rosuser/ros2_ws/ws_moveit/install/launch_param_builder:/opt/ros/humble')]), 'shell': False}
+[0.098552] (move_arm) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[0.099806] (-) TimerEvent: {}
+[0.193159] (move_arm) StdoutLine: {'line': b'-- Found moveit_ros_planning_interface: 2.5.9 (/home/rosuser/ros2_ws/ws_moveit/install/moveit_ros_planning_interface/share/moveit_ros_planning_interface/cmake)\n'}
+[0.200707] (move_arm) StdoutLine: {'line': b'-- Found Boost: /usr/lib/aarch64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: date_time filesystem program_options system thread \n'}
+[0.200799] (-) TimerEvent: {}
+[0.221174] (move_arm) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.6 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[0.222817] (move_arm) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.6 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[0.226550] (move_arm) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.6 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[0.235997] (move_arm) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[0.247555] (move_arm) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[0.300902] (-) TimerEvent: {}
+[0.365943] (move_arm) StdoutLine: {'line': b'-- Found Boost: /usr/lib/aarch64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: chrono date_time filesystem iostreams program_options regex serialization system thread \n'}
+[0.387448] (move_arm) StdoutLine: {'line': b'-- Found parameter_traits: 0.4.0 (/opt/ros/humble/share/parameter_traits/cmake)\n'}
+[0.401052] (-) TimerEvent: {}
+[0.407732] (move_arm) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)\n'}
+[0.410753] (move_arm) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)\n'}
+[0.501171] (-) TimerEvent: {}
+[0.509504] (move_arm) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[0.545136] (move_arm) StdoutLine: {'line': b'-- Found rclcpp_lifecycle: 16.0.12 (/opt/ros/humble/share/rclcpp_lifecycle/cmake)\n'}
+[0.560564] (move_arm) StdoutLine: {'line': b'-- Found Boost: /usr/lib/aarch64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: filesystem \n'}
+[0.592372] (move_arm) StdoutLine: {'line': b'-- library: /usr/lib/aarch64-linux-gnu/libcurl.so\n'}
+[0.601259] (-) TimerEvent: {}
+[0.612471] (move_arm) StdoutLine: {'line': b'-- Ensuring Eigen3 include directory is part of orocos-kdl CMake target\n'}
+[0.692839] (move_arm) StdoutLine: {'line': b'-- Found Boost: /usr/lib/aarch64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: system filesystem date_time program_options thread chrono \n'}
+[0.702797] (-) TimerEvent: {}
+[0.711690] (move_arm) StdoutLine: {'line': b'-- Found Boost: /usr/lib/aarch64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: thread system filesystem regex date_time program_options \n'}
+[0.726261] (move_arm) StdoutLine: {'line': b'-- Found Boost: /usr/lib/aarch64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: system filesystem date_time program_options thread \n'}
+[0.752352] (move_arm) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.12.12 (/opt/ros/humble/share/ament_lint_auto/cmake)\n'}
+[0.796506] (move_arm) StdoutLine: {'line': b"-- Added test 'cppcheck' to perform static code analysis on C / C++ code\n"}
+[0.796626] (move_arm) StdoutLine: {'line': b'-- Configured cppcheck include dirs: $<BUILD_INTERFACE:/home/rosuser/ros2_ws/ws_moveit/src/move_arm/include>\n'}
+[0.796667] (move_arm) StdoutLine: {'line': b'-- Configured cppcheck exclude dirs and/or files: \n'}
+[0.796988] (move_arm) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[0.797489] (move_arm) StdoutLine: {'line': b"-- Added test 'uncrustify' to check C / C++ code style\n"}
+[0.797643] (move_arm) StdoutLine: {'line': b'-- Configured uncrustify additional arguments: \n'}
+[0.797777] (move_arm) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[0.798055] (move_arm) StdoutLine: {'line': b'-- Configuring done\n'}
+[0.802883] (-) TimerEvent: {}
+[0.836094] (move_arm) StdoutLine: {'line': b'-- Generating done\n'}
+[0.845398] (move_arm) StdoutLine: {'line': b'-- Build files have been written to: /home/rosuser/ros2_ws/ws_moveit/build/move_arm\n'}
+[0.874774] (move_arm) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target move_arm\x1b[0m\n'}
+[0.875779] (move_arm) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target move_to_pose\x1b[0m\n'}
+[0.901879] (move_arm) StdoutLine: {'line': b'[ 50%] Built target move_arm\n'}
+[0.902966] (move_arm) StdoutLine: {'line': b'[ 75%] \x1b[32mBuilding CXX object CMakeFiles/move_to_pose.dir/src/move_to_pose.cpp.o\x1b[0m\n'}
+[0.903111] (-) TimerEvent: {}
+[1.003874] (-) TimerEvent: {}
+[1.104267] (-) TimerEvent: {}
+[1.158597] (move_arm) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/rosuser/ros2_ws/ws_moveit/src/move_arm/src/move_to_pose.cpp:3\x1b[m\x1b[K:\n'}
+[1.158741] (move_arm) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/tf2_geometry_msgs/tf2_geometry_msgs/tf2_geometry_msgs.h:35:2:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[K#warning This header is obsolete, please include tf2_geometry_msgs/tf2_geometry_msgs.hpp instead [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wcpp\x07-Wcpp\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[1.158781] (move_arm) StderrLine: {'line': b'   35 | #\x1b[01;35m\x1b[Kwarning\x1b[m\x1b[K This header is obsolete, please include tf2_geometry_msgs/tf2_geometry_msgs.hpp instead\n'}
+[1.158809] (move_arm) StderrLine: {'line': b'      |  \x1b[01;35m\x1b[K^~~~~~~\x1b[m\x1b[K\n'}
+[1.205119] (-) TimerEvent: {}
+[1.305426] (-) TimerEvent: {}
+[1.406901] (-) TimerEvent: {}
+[1.511936] (-) TimerEvent: {}
+[1.616916] (-) TimerEvent: {}
+[1.718286] (-) TimerEvent: {}
+[1.819173] (-) TimerEvent: {}
+[1.919579] (-) TimerEvent: {}
+[2.021060] (-) TimerEvent: {}
+[2.123801] (-) TimerEvent: {}
+[2.226276] (-) TimerEvent: {}
+[2.328020] (-) TimerEvent: {}
+[2.431350] (-) TimerEvent: {}
+[2.531683] (-) TimerEvent: {}
+[2.633024] (-) TimerEvent: {}
+[2.734947] (-) TimerEvent: {}
+[2.835834] (-) TimerEvent: {}
+[2.938954] (-) TimerEvent: {}
+[3.041480] (-) TimerEvent: {}
+[3.143261] (-) TimerEvent: {}
+[3.243591] (-) TimerEvent: {}
+[3.344800] (-) TimerEvent: {}
+[3.445298] (-) TimerEvent: {}
+[3.546099] (-) TimerEvent: {}
+[3.650284] (-) TimerEvent: {}
+[3.755402] (-) TimerEvent: {}
+[3.857995] (-) TimerEvent: {}
+[3.961688] (-) TimerEvent: {}
+[4.063063] (-) TimerEvent: {}
+[4.163629] (-) TimerEvent: {}
+[4.263998] (-) TimerEvent: {}
+[4.365387] (-) TimerEvent: {}
+[4.465891] (-) TimerEvent: {}
+[4.567268] (-) TimerEvent: {}
+[4.667582] (-) TimerEvent: {}
+[4.753661] (move_arm) StderrLine: {'line': b'\x1b[01m\x1b[K/home/rosuser/ros2_ws/ws_moveit/src/move_arm/src/move_to_pose.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kvoid MoveToPose::gesture_callback(std_msgs::msg::String_<std::allocator<void> >::SharedPtr)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[4.753998] (move_arm) StderrLine: {'line': b'\x1b[01m\x1b[K/home/rosuser/ros2_ws/ws_moveit/src/move_arm/src/move_to_pose.cpp:32:13:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kquat_goal\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope\n'}
+[4.754073] (move_arm) StderrLine: {'line': b'   32 |             \x1b[01;31m\x1b[Kquat_goal\x1b[m\x1b[K.setRPY(0, 0, -M_PI/4);\n'}
+[4.754119] (move_arm) StderrLine: {'line': b'      |             \x1b[01;31m\x1b[K^~~~~~~~~\x1b[m\x1b[K\n'}
+[4.762089] (move_arm) StderrLine: {'line': b'\x1b[01m\x1b[K/home/rosuser/ros2_ws/ws_moveit/src/move_arm/src/move_to_pose.cpp:44:13:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kquat_goal\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope\n'}
+[4.762181] (move_arm) StderrLine: {'line': b'   44 |             \x1b[01;31m\x1b[Kquat_goal\x1b[m\x1b[K.setRPY(0, 0, M_PI/4);\n'}
+[4.762327] (move_arm) StderrLine: {'line': b'      |             \x1b[01;31m\x1b[K^~~~~~~~~\x1b[m\x1b[K\n'}
+[4.768143] (-) TimerEvent: {}
+[4.770496] (move_arm) StderrLine: {'line': b'\x1b[01m\x1b[K/home/rosuser/ros2_ws/ws_moveit/src/move_arm/src/move_to_pose.cpp:56:13:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kquat_goal\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope\n'}
+[4.770569] (move_arm) StderrLine: {'line': b'   56 |             \x1b[01;31m\x1b[Kquat_goal\x1b[m\x1b[K.setRPY(0, 0, M_PI/2);\n'}
+[4.770597] (move_arm) StderrLine: {'line': b'      |             \x1b[01;31m\x1b[K^~~~~~~~~\x1b[m\x1b[K\n'}
+[4.780026] (move_arm) StderrLine: {'line': b'\x1b[01m\x1b[K/home/rosuser/ros2_ws/ws_moveit/src/move_arm/src/move_to_pose.cpp:71:36:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kpose_goal\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope\n'}
+[4.780560] (move_arm) StderrLine: {'line': b'   71 |         move_group_->setPoseTarget(\x1b[01;31m\x1b[Kpose_goal\x1b[m\x1b[K);\n'}
+[4.780594] (move_arm) StderrLine: {'line': b'      |                                    \x1b[01;31m\x1b[K^~~~~~~~~\x1b[m\x1b[K\n'}
+[4.872895] (-) TimerEvent: {}
+[4.973270] (-) TimerEvent: {}
+[5.073637] (-) TimerEvent: {}
+[5.174965] (-) TimerEvent: {}
+[5.277690] (-) TimerEvent: {}
+[5.382584] (-) TimerEvent: {}
+[5.486013] (-) TimerEvent: {}
+[5.590918] (-) TimerEvent: {}
+[5.691794] (-) TimerEvent: {}
+[5.793573] (-) TimerEvent: {}
+[5.867355] (move_arm) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/aarch64-linux-gnu/c++/11/bits/c++allocator.h:33\x1b[m\x1b[K,\n'}
+[5.867595] (move_arm) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/c++/11/bits/allocator.h:46\x1b[m\x1b[K,\n'}
+[5.867670] (move_arm) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/c++/11/memory:64\x1b[m\x1b[K,\n'}
+[5.867724] (move_arm) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/rosuser/ros2_ws/ws_moveit/src/move_arm/src/move_to_pose.cpp:1\x1b[m\x1b[K:\n'}
+[5.867775] (move_arm) StderrLine: {'line': b'/usr/include/c++/11/ext/new_allocator.h: In instantiation of \xe2\x80\x98\x1b[01m\x1b[Kvoid __gnu_cxx::new_allocator<_Tp>::construct(_Up*, _Args&& ...) [with _Up = moveit::planning_interface::MoveGroupInterface; _Args = {MoveToPose*, const char (&)[10]}; _Tp = moveit::planning_interface::MoveGroupInterface]\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[5.867806] (move_arm) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/alloc_traits.h:516:17:\x1b[m\x1b[K   required from \xe2\x80\x98\x1b[01m\x1b[Kstatic void std::allocator_traits<std::allocator<_Tp1> >::construct(std::allocator_traits<std::allocator<_Tp1> >::allocator_type&, _Up*, _Args&& ...) [with _Up = moveit::planning_interface::MoveGroupInterface; _Args = {MoveToPose*, const char (&)[10]}; _Tp = moveit::planning_interface::MoveGroupInterface; std::allocator_traits<std::allocator<_Tp1> >::allocator_type = std::allocator<moveit::planning_interface::MoveGroupInterface>]\x1b[m\x1b[K\xe2\x80\x99\n'}
+[5.867833] (move_arm) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/shared_ptr_base.h:519:39:\x1b[m\x1b[K   required from \xe2\x80\x98\x1b[01m\x1b[Kstd::_Sp_counted_ptr_inplace<_Tp, _Alloc, _Lp>::_Sp_counted_ptr_inplace(_Alloc, _Args&& ...) [with _Args = {MoveToPose*, const char (&)[10]}; _Tp = moveit::planning_interface::MoveGroupInterface; _Alloc = std::allocator<moveit::planning_interface::MoveGroupInterface>; __gnu_cxx::_Lock_policy _Lp = __gnu_cxx::_S_atomic]\x1b[m\x1b[K\xe2\x80\x99\n'}
+[5.867870] (move_arm) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/shared_ptr_base.h:650:16:\x1b[m\x1b[K   required from \xe2\x80\x98\x1b[01m\x1b[Kstd::__shared_count<_Lp>::__shared_count(_Tp*&, std::_Sp_alloc_shared_tag<_Alloc>, _Args&& ...) [with _Tp = moveit::planning_interface::MoveGroupInterface; _Alloc = std::allocator<moveit::planning_interface::MoveGroupInterface>; _Args = {MoveToPose*, const char (&)[10]}; __gnu_cxx::_Lock_policy _Lp = __gnu_cxx::_S_atomic]\x1b[m\x1b[K\xe2\x80\x99\n'}
+[5.867902] (move_arm) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/shared_ptr_base.h:1342:14:\x1b[m\x1b[K   required from \xe2\x80\x98\x1b[01m\x1b[Kstd::__shared_ptr<_Tp, _Lp>::__shared_ptr(std::_Sp_alloc_shared_tag<_Tp>, _Args&& ...) [with _Alloc = std::allocator<moveit::planning_interface::MoveGroupInterface>; _Args = {MoveToPose*, const char (&)[10]}; _Tp = moveit::planning_interface::MoveGroupInterface; __gnu_cxx::_Lock_policy _Lp = __gnu_cxx::_S_atomic]\x1b[m\x1b[K\xe2\x80\x99\n'}
+[5.867956] (move_arm) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/shared_ptr.h:409:59:\x1b[m\x1b[K   required from \xe2\x80\x98\x1b[01m\x1b[Kstd::shared_ptr<_Tp>::shared_ptr(std::_Sp_alloc_shared_tag<_Tp>, _Args&& ...) [with _Alloc = std::allocator<moveit::planning_interface::MoveGroupInterface>; _Args = {MoveToPose*, const char (&)[10]}; _Tp = moveit::planning_interface::MoveGroupInterface]\x1b[m\x1b[K\xe2\x80\x99\n'}
+[5.867992] (move_arm) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/shared_ptr.h:862:14:\x1b[m\x1b[K   required from \xe2\x80\x98\x1b[01m\x1b[Kstd::shared_ptr<_Tp> std::allocate_shared(const _Alloc&, _Args&& ...) [with _Tp = moveit::planning_interface::MoveGroupInterface; _Alloc = std::allocator<moveit::planning_interface::MoveGroupInterface>; _Args = {MoveToPose*, const char (&)[10]}]\x1b[m\x1b[K\xe2\x80\x99\n'}
+[5.868033] (move_arm) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/shared_ptr.h:878:39:\x1b[m\x1b[K   required from \xe2\x80\x98\x1b[01m\x1b[Kstd::shared_ptr<_Tp> std::make_shared(_Args&& ...) [with _Tp = moveit::planning_interface::MoveGroupInterface; _Args = {MoveToPose*, const char (&)[10]}]\x1b[m\x1b[K\xe2\x80\x99\n'}
+[5.868074] (move_arm) StderrLine: {'line': b'\x1b[01m\x1b[K/home/rosuser/ros2_ws/ws_moveit/src/move_arm/src/move_to_pose.cpp:21:87:\x1b[m\x1b[K   required from here\n'}
+[5.868098] (move_arm) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/ext/new_allocator.h:162:11:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kno matching function for call to \xe2\x80\x98\x1b[01m\x1b[Kmoveit::planning_interface::MoveGroupInterface::MoveGroupInterface(MoveToPose*, const char [10])\x1b[m\x1b[K\xe2\x80\x99\n'}
+[5.868136] (move_arm) StderrLine: {'line': b'  162 |         { \x1b[01;31m\x1b[K::new((void *)__p) _Up(std::forward<_Args>(__args)...)\x1b[m\x1b[K; }\n'}
+[5.868180] (move_arm) StderrLine: {'line': b'      |           \x1b[01;31m\x1b[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[5.868314] (move_arm) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/rosuser/ros2_ws/ws_moveit/src/move_arm/src/move_to_pose.cpp:5\x1b[m\x1b[K:\n'}
+[5.868372] (move_arm) StderrLine: {'line': b'\x1b[01m\x1b[K/home/rosuser/ros2_ws/ws_moveit/install/moveit_ros_planning_interface/include/moveit/move_group_interface/move_group_interface.h:159:3:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Kmoveit::planning_interface::MoveGroupInterface::MoveGroupInterface(moveit::planning_interface::MoveGroupInterface&&)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[5.868431] (move_arm) StderrLine: {'line': b'  159 |   \x1b[01;36m\x1b[KMoveGroupInterface\x1b[m\x1b[K(MoveGroupInterface&& other) noexcept;\n'}
+[5.868476] (move_arm) StderrLine: {'line': b'      |   \x1b[01;36m\x1b[K^~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[5.868504] (move_arm) StderrLine: {'line': b'\x1b[01m\x1b[K/home/rosuser/ros2_ws/ws_moveit/install/moveit_ros_planning_interface/include/moveit/move_group_interface/move_group_interface.h:159:3:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  candidate expects 1 argument, 2 provided\n'}
+[5.868549] (move_arm) StderrLine: {'line': b'\x1b[01m\x1b[K/home/rosuser/ros2_ws/ws_moveit/install/moveit_ros_planning_interface/include/moveit/move_group_interface/move_group_interface.h:145:3:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Kmoveit::planning_interface::MoveGroupInterface::MoveGroupInterface(const SharedPtr&, const string&, const std::shared_ptr<tf2_ros::Buffer>&, const rclcpp::Duration&)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[5.868578] (move_arm) StderrLine: {'line': b'  145 |   \x1b[01;36m\x1b[KMoveGroupInterface\x1b[m\x1b[K(const rclcpp::Node::SharedPtr& node, const std::string& group,\n'}
+[5.868616] (move_arm) StderrLine: {'line': b'      |   \x1b[01;36m\x1b[K^~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[5.868657] (move_arm) StderrLine: {'line': b'\x1b[01m\x1b[K/home/rosuser/ros2_ws/ws_moveit/install/moveit_ros_planning_interface/include/moveit/move_group_interface/move_group_interface.h:145:53:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  no known conversion for argument 1 from \xe2\x80\x98\x1b[01m\x1b[KMoveToPose*\x1b[m\x1b[K\xe2\x80\x99 to \xe2\x80\x98\x1b[01m\x1b[Kconst SharedPtr&\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[Kconst std::shared_ptr<rclcpp::Node>&\x1b[m\x1b[K\xe2\x80\x99}\n'}
+[5.868702] (move_arm) StderrLine: {'line': b'  145 |   MoveGroupInterface(\x1b[01;36m\x1b[Kconst rclcpp::Node::SharedPtr& node\x1b[m\x1b[K, const std::string& group,\n'}
+[5.868729] (move_arm) StderrLine: {'line': b'      |                      \x1b[01;36m\x1b[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~\x1b[m\x1b[K\n'}
+[5.868753] (move_arm) StderrLine: {'line': b'\x1b[01m\x1b[K/home/rosuser/ros2_ws/ws_moveit/install/moveit_ros_planning_interface/include/moveit/move_group_interface/move_group_interface.h:134:3:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Kmoveit::planning_interface::MoveGroupInterface::MoveGroupInterface(const SharedPtr&, const moveit::planning_interface::MoveGroupInterface::Options&, const std::shared_ptr<tf2_ros::Buffer>&, const rclcpp::Duration&)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[5.868779] (move_arm) StderrLine: {'line': b'  134 |   \x1b[01;36m\x1b[KMoveGroupInterface\x1b[m\x1b[K(const rclcpp::Node::SharedPtr& node, const Options& opt,\n'}
+[5.868824] (move_arm) StderrLine: {'line': b'      |   \x1b[01;36m\x1b[K^~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[5.868850] (move_arm) StderrLine: {'line': b'\x1b[01m\x1b[K/home/rosuser/ros2_ws/ws_moveit/install/moveit_ros_planning_interface/include/moveit/move_group_interface/move_group_interface.h:134:53:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  no known conversion for argument 1 from \xe2\x80\x98\x1b[01m\x1b[KMoveToPose*\x1b[m\x1b[K\xe2\x80\x99 to \xe2\x80\x98\x1b[01m\x1b[Kconst SharedPtr&\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[Kconst std::shared_ptr<rclcpp::Node>&\x1b[m\x1b[K\xe2\x80\x99}\n'}
+[5.868887] (move_arm) StderrLine: {'line': b'  134 |   MoveGroupInterface(\x1b[01;36m\x1b[Kconst rclcpp::Node::SharedPtr& node\x1b[m\x1b[K, const Options& opt,\n'}
+[5.868914] (move_arm) StderrLine: {'line': b'      |                      \x1b[01;36m\x1b[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~\x1b[m\x1b[K\n'}
+[5.893806] (-) TimerEvent: {}
+[5.995708] (-) TimerEvent: {}
+[6.096163] (-) TimerEvent: {}
+[6.201053] (-) TimerEvent: {}
+[6.304502] (-) TimerEvent: {}
+[6.409456] (-) TimerEvent: {}
+[6.511339] (-) TimerEvent: {}
+[6.614003] (-) TimerEvent: {}
+[6.716724] (-) TimerEvent: {}
+[6.821819] (-) TimerEvent: {}
+[6.922655] (-) TimerEvent: {}
+[7.026519] (-) TimerEvent: {}
+[7.127064] (-) TimerEvent: {}
+[7.161403] (move_arm) StderrLine: {'line': b'gmake[2]: *** [CMakeFiles/move_to_pose.dir/build.make:76: CMakeFiles/move_to_pose.dir/src/move_to_pose.cpp.o] Error 1\n'}
+[7.162028] (move_arm) StderrLine: {'line': b'gmake[1]: *** [CMakeFiles/Makefile2:165: CMakeFiles/move_to_pose.dir/all] Error 2\n'}
+[7.162892] (move_arm) StderrLine: {'line': b'gmake: *** [Makefile:146: all] Error 2\n'}
+[7.169467] (move_arm) CommandEnded: {'returncode': 2}
+[7.183417] (move_arm) JobEnded: {'identifier': 'move_arm', 'rc': 2}
+[7.193810] (-) EventReactorShutdown: {}
