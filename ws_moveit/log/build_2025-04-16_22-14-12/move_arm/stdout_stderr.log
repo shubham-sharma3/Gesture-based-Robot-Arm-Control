@@ -1,0 +1,19 @@
+[35m[1mConsolidate compiler generated dependencies of target move_arm[0m
+[ 50%] [32mBuilding CXX object CMakeFiles/move_arm.dir/src/move_arm.cpp.o[0m
+In file included from [01m[K/home/rosuser/ros2_ws/ws_moveit/src/move_arm/src/move_arm.cpp:3[m[K:
+[01m[K/opt/ros/humble/include/tf2_geometry_msgs/tf2_geometry_msgs/tf2_geometry_msgs.h:35:2:[m[K [01;35m[Kwarning: [m[K#warning This header is obsolete, please include tf2_geometry_msgs/tf2_geometry_msgs.hpp instead [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wcpp-Wcpp]8;;[m[K]
+   35 | #[01;35m[Kwarning[m[K This header is obsolete, please include tf2_geometry_msgs/tf2_geometry_msgs.hpp instead
+      |  [01;35m[K^~~~~~~[m[K
+[01m[K/home/rosuser/ros2_ws/ws_moveit/src/move_arm/src/move_arm.cpp:[m[K In function ‘[01m[Kint main(int, char**)[m[K’:
+[01m[K/home/rosuser/ros2_ws/ws_moveit/src/move_arm/src/move_arm.cpp:13:15:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K)[m[K’ before ‘[01m[Krclcpp[m[K’
+   13 |     "move_arm"
+      |               [01;31m[K^[m[K
+      |               [32m[K)[m[K
+   14 |     [32m[Krclcpp[m[K::NodeOptions().automatically_declare_parameters_from_overrides(true)
+      |     [32m[K~~~~~~[m[K     
+[01m[K/home/rosuser/ros2_ws/ws_moveit/src/move_arm/src/move_arm.cpp:12:5:[m[K [01;36m[Knote: [m[Kto match this ‘[01m[K([m[K’
+   12 |     [01;36m[K([m[K
+      |     [01;36m[K^[m[K
+gmake[2]: *** [CMakeFiles/move_arm.dir/build.make:76: CMakeFiles/move_arm.dir/src/move_arm.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/move_arm.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

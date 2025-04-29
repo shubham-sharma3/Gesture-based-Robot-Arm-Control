@@ -1,0 +1,319 @@
+[0.024s] Invoking command in '/home/rosuser/ros2_ws/ws_moveit/build/moveit_ros_planning': AMENT_PREFIX_PATH=/home/rosuser/ros2_ws/ws_moveit/install/moveit_ros_occupancy_map_monitor:/home/rosuser/ros2_ws/ws_moveit/install/moveit_core:/home/rosuser/ros2_ws/ws_moveit/install/moveit_resources_panda_moveit_config:/home/rosuser/ros2_ws/ws_moveit/install/moveit_configs_utils:/home/rosuser/ros2_ws/ws_moveit/install/srdfdom:/home/rosuser/ros2_ws/ws_moveit/install/moveit_resources_pr2_description:/home/rosuser/ros2_ws/ws_moveit/install/moveit_resources_panda_description:/home/rosuser/ros2_ws/ws_moveit/install/moveit_common:/home/rosuser/ros2_ws/ws_moveit/install/launch_param_builder:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/rosuser/ros2_ws/ws_moveit/install/moveit_ros_occupancy_map_monitor:/home/rosuser/ros2_ws/ws_moveit/install/moveit_core:/home/rosuser/ros2_ws/ws_moveit/install/moveit_resources_panda_moveit_config:/home/rosuser/ros2_ws/ws_moveit/install/srdfdom:/home/rosuser/ros2_ws/ws_moveit/install/moveit_resources_pr2_description:/home/rosuser/ros2_ws/ws_moveit/install/moveit_resources_panda_description:/home/rosuser/ros2_ws/ws_moveit/install/moveit_common:/opt/ros/humble LD_LIBRARY_PATH=/home/rosuser/ros2_ws/ws_moveit/install/moveit_ros_occupancy_map_monitor/lib:/home/rosuser/ros2_ws/ws_moveit/install/moveit_core/lib:/home/rosuser/ros2_ws/ws_moveit/install/srdfdom/lib:${LD_LIBRARY_PATH} PATH=/home/rosuser/ros2_ws/ws_moveit/install/moveit_core/bin:${PATH} PYTHONPATH=/home/rosuser/ros2_ws/ws_moveit/install/moveit_configs_utils/lib/python3.10/site-packages:/home/rosuser/ros2_ws/ws_moveit/install/srdfdom/local/lib/python3.10/dist-packages:/home/rosuser/ros2_ws/ws_moveit/install/launch_param_builder/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/cmake /home/rosuser/ros2_ws/ws_moveit/src/moveit2/moveit_ros/planning -DCMAKE_BUILD_TYPE=Release -DCMAKE_INSTALL_PREFIX=/home/rosuser/ros2_ws/ws_moveit/install/moveit_ros_planning
+[0.071s] -- The C compiler identification is GNU 11.4.0
+[0.115s] -- The CXX compiler identification is GNU 11.4.0
+[0.121s] -- Detecting C compiler ABI info
+[0.170s] -- Detecting C compiler ABI info - done
+[0.175s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.175s] -- Detecting C compile features
+[0.175s] -- Detecting C compile features - done
+[0.177s] -- Detecting CXX compiler ABI info
+[0.232s] -- Detecting CXX compiler ABI info - done
+[0.238s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.238s] -- Detecting CXX compile features
+[0.239s] -- Detecting CXX compile features - done
+[0.240s] -- Found moveit_common: 2.5.9 (/home/rosuser/ros2_ws/ws_moveit/install/moveit_common/share/moveit_common/cmake)
+[0.244s] -- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.336s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[0.448s] -- Found moveit_msgs: 2.2.1 (/opt/ros/humble/share/moveit_msgs/cmake)
+[0.475s] -- Found rosidl_generator_c: 3.1.6 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.479s] -- Found rosidl_adapter: 3.1.6 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.486s] -- Found rosidl_generator_cpp: 3.1.6 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.497s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.510s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.648s] -- Found pluginlib: 5.1.0 (/opt/ros/humble/share/pluginlib/cmake)
+[0.672s] -- Found rclcpp: 16.0.12 (/opt/ros/humble/share/rclcpp/cmake)
+[0.703s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.705s] -- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[0.723s] -- Found TinyXML2 via Config file: TinyXML2_DIR-NOTFOUND
+[0.756s] -- Found OpenSSL: /usr/lib/aarch64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[0.759s] -- Found TinyXML2 via Config file: TinyXML2_DIR-NOTFOUND
+[0.768s] -- Found FastRTPS: /opt/ros/humble/include  
+[0.770s] -- Found TinyXML2 via Config file: TinyXML2_DIR-NOTFOUND
+[0.775s] -- Found TinyXML2 via Config file: TinyXML2_DIR-NOTFOUND
+[0.782s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.791s] -- Looking for pthread.h
+[0.868s] -- Looking for pthread.h - found
+[0.868s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[0.948s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[0.948s] -- Found Threads: TRUE  
+[0.980s] -- Found message_filters: 4.3.6 (/opt/ros/humble/share/message_filters/cmake)
+[0.982s] -- Found srdfdom: 2.0.7 (/home/rosuser/ros2_ws/ws_moveit/install/srdfdom/share/srdfdom/cmake)
+[0.994s] -- Found tf2: 0.25.12 (/opt/ros/humble/share/tf2/cmake)
+[0.998s] -- Found tf2_geometry_msgs: 0.25.12 (/opt/ros/humble/share/tf2_geometry_msgs/cmake)
+[1.011s] -- Found eigen3_cmake_module: 0.1.1 (/opt/ros/humble/share/eigen3_cmake_module/cmake)
+[1.011s] -- Found Eigen3: TRUE (found version "3.4.0") 
+[1.012s] -- Ensuring Eigen3 include directory is part of orocos-kdl CMake target
+[1.057s] -- Found tf2_eigen: 0.25.12 (/opt/ros/humble/share/tf2_eigen/cmake)
+[1.060s] -- Found moveit_core: 2.5.9 (/home/rosuser/ros2_ws/ws_moveit/install/moveit_core/share/moveit_core/cmake)
+[1.092s] -- Found Boost: /usr/lib/aarch64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: chrono date_time filesystem iostreams program_options regex serialization system thread 
+[1.120s] -- Found parameter_traits: 0.4.0 (/opt/ros/humble/share/parameter_traits/cmake)
+[1.132s] -- Found rclcpp_lifecycle: 16.0.12 (/opt/ros/humble/share/rclcpp_lifecycle/cmake)
+[1.151s] -- Found Boost: /usr/lib/aarch64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: filesystem 
+[1.206s] -- library: /usr/lib/aarch64-linux-gnu/libcurl.so
+[1.244s] -- Found moveit_ros_occupancy_map_monitor: 2.5.9 (/home/rosuser/ros2_ws/ws_moveit/install/moveit_ros_occupancy_map_monitor/share/moveit_ros_occupancy_map_monitor/cmake)
+[1.255s] -- Found Boost: /usr/lib/aarch64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: system filesystem date_time program_options thread chrono 
+[1.277s] -- Performing Test COMPILER_HAS_HIDDEN_VISIBILITY
+[1.351s] -- Performing Test COMPILER_HAS_HIDDEN_VISIBILITY - Success
+[1.351s] -- Performing Test COMPILER_HAS_HIDDEN_INLINE_VISIBILITY
+[1.422s] -- Performing Test COMPILER_HAS_HIDDEN_INLINE_VISIBILITY - Success
+[1.422s] -- Performing Test COMPILER_HAS_DEPRECATED_ATTR
+[1.488s] -- Performing Test COMPILER_HAS_DEPRECATED_ATTR - Success
+[1.511s] -- Found ament_cmake_gtest: 1.3.11 (/opt/ros/humble/share/ament_cmake_gtest/cmake)
+[1.513s] -- Found ament_cmake_gmock: 1.3.11 (/opt/ros/humble/share/ament_cmake_gmock/cmake)
+[1.515s] -- Found ros_testing: 0.4.0 (/opt/ros/humble/share/ros_testing/cmake)
+[1.518s] -- Found launch_testing_ament_cmake: 1.0.8 (/opt/ros/humble/share/launch_testing_ament_cmake/cmake)
+[1.520s] -- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)
+[1.533s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.10.12", minimum required is "3.6") 
+[1.536s] -- Found PythonLibs: /usr/lib/aarch64-linux-gnu/libpython3.10.so (found suitable version "3.10.12", minimum required is "3.5") 
+[1.536s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[1.536s] -- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10
+[1.536s] -- Using PYTHON_LIBRARIES: /usr/lib/aarch64-linux-gnu/libpython3.10.so
+[1.553s] -- Found PythonExtra: .so  
+[1.556s] -- Found gmock sources under '/opt/ros/humble/src/gmock_vendor': C++ tests using 'Google Mock' will be built
+[1.562s] -- Found gtest sources under '/opt/ros/humble/src/gtest_vendor': C++ tests using 'Google Test' will be built
+[1.596s] -- Found ament_lint_auto: 0.12.12 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[1.621s] -- Found launch_testing_ament_cmake: 1.0.8 (/opt/ros/humble/share/launch_testing_ament_cmake/cmake)
+[1.622s] -- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)
+[1.638s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[1.638s] -- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10
+[1.638s] -- Using PYTHON_LIBRARIES: /usr/lib/aarch64-linux-gnu/libpython3.10.so
+[1.649s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[1.649s] -- Configured cppcheck include dirs: /home/rosuser/ros2_ws/ws_moveit/src/moveit2/moveit_ros/planning/rdf_loader/include;/home/rosuser/ros2_ws/ws_moveit/src/moveit2/moveit_ros/planning/kinematics_plugin_loader/include;/home/rosuser/ros2_ws/ws_moveit/src/moveit2/moveit_ros/planning/robot_model_loader/include;/home/rosuser/ros2_ws/ws_moveit/src/moveit2/moveit_ros/planning/constraint_sampler_manager_loader/include;/home/rosuser/ros2_ws/ws_moveit/src/moveit2/moveit_ros/planning/planning_pipeline/include;/home/rosuser/ros2_ws/ws_moveit/src/moveit2/moveit_ros/planning/planning_scene_monitor/include;/home/rosuser/ros2_ws/ws_moveit/src/moveit2/moveit_ros/planning/trajectory_execution_manager/include;/home/rosuser/ros2_ws/ws_moveit/src/moveit2/moveit_ros/planning/plan_execution/include;/home/rosuser/ros2_ws/ws_moveit/src/moveit2/moveit_ros/planning/collision_plugin_loader/include;/home/rosuser/ros2_ws/ws_moveit/src/moveit2/moveit_ros/planning/moveit_cpp/include
+[1.649s] -- Configured cppcheck exclude dirs and/or files: 
+[1.651s] -- Added test 'lint_cmake' to check CMake code style
+[1.652s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[1.653s] -- Added test 'xmllint' to check XML markup files
+[1.655s] -- Configuring done
+[1.871s] -- Generating done
+[1.927s] -- Build files have been written to: /home/rosuser/ros2_ws/ws_moveit/build/moveit_ros_planning
+[1.943s] Invoked command in '/home/rosuser/ros2_ws/ws_moveit/build/moveit_ros_planning' returned '0': AMENT_PREFIX_PATH=/home/rosuser/ros2_ws/ws_moveit/install/moveit_ros_occupancy_map_monitor:/home/rosuser/ros2_ws/ws_moveit/install/moveit_core:/home/rosuser/ros2_ws/ws_moveit/install/moveit_resources_panda_moveit_config:/home/rosuser/ros2_ws/ws_moveit/install/moveit_configs_utils:/home/rosuser/ros2_ws/ws_moveit/install/srdfdom:/home/rosuser/ros2_ws/ws_moveit/install/moveit_resources_pr2_description:/home/rosuser/ros2_ws/ws_moveit/install/moveit_resources_panda_description:/home/rosuser/ros2_ws/ws_moveit/install/moveit_common:/home/rosuser/ros2_ws/ws_moveit/install/launch_param_builder:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/rosuser/ros2_ws/ws_moveit/install/moveit_ros_occupancy_map_monitor:/home/rosuser/ros2_ws/ws_moveit/install/moveit_core:/home/rosuser/ros2_ws/ws_moveit/install/moveit_resources_panda_moveit_config:/home/rosuser/ros2_ws/ws_moveit/install/srdfdom:/home/rosuser/ros2_ws/ws_moveit/install/moveit_resources_pr2_description:/home/rosuser/ros2_ws/ws_moveit/install/moveit_resources_panda_description:/home/rosuser/ros2_ws/ws_moveit/install/moveit_common:/opt/ros/humble LD_LIBRARY_PATH=/home/rosuser/ros2_ws/ws_moveit/install/moveit_ros_occupancy_map_monitor/lib:/home/rosuser/ros2_ws/ws_moveit/install/moveit_core/lib:/home/rosuser/ros2_ws/ws_moveit/install/srdfdom/lib:${LD_LIBRARY_PATH} PATH=/home/rosuser/ros2_ws/ws_moveit/install/moveit_core/bin:${PATH} PYTHONPATH=/home/rosuser/ros2_ws/ws_moveit/install/moveit_configs_utils/lib/python3.10/site-packages:/home/rosuser/ros2_ws/ws_moveit/install/srdfdom/local/lib/python3.10/dist-packages:/home/rosuser/ros2_ws/ws_moveit/install/launch_param_builder/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/cmake /home/rosuser/ros2_ws/ws_moveit/src/moveit2/moveit_ros/planning -DCMAKE_BUILD_TYPE=Release -DCMAKE_INSTALL_PREFIX=/home/rosuser/ros2_ws/ws_moveit/install/moveit_ros_planning
+[1.944s] Invoking command in '/home/rosuser/ros2_ws/ws_moveit/build/moveit_ros_planning': AMENT_PREFIX_PATH=/home/rosuser/ros2_ws/ws_moveit/install/moveit_ros_occupancy_map_monitor:/home/rosuser/ros2_ws/ws_moveit/install/moveit_core:/home/rosuser/ros2_ws/ws_moveit/install/moveit_resources_panda_moveit_config:/home/rosuser/ros2_ws/ws_moveit/install/moveit_configs_utils:/home/rosuser/ros2_ws/ws_moveit/install/srdfdom:/home/rosuser/ros2_ws/ws_moveit/install/moveit_resources_pr2_description:/home/rosuser/ros2_ws/ws_moveit/install/moveit_resources_panda_description:/home/rosuser/ros2_ws/ws_moveit/install/moveit_common:/home/rosuser/ros2_ws/ws_moveit/install/launch_param_builder:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/rosuser/ros2_ws/ws_moveit/install/moveit_ros_occupancy_map_monitor:/home/rosuser/ros2_ws/ws_moveit/install/moveit_core:/home/rosuser/ros2_ws/ws_moveit/install/moveit_resources_panda_moveit_config:/home/rosuser/ros2_ws/ws_moveit/install/srdfdom:/home/rosuser/ros2_ws/ws_moveit/install/moveit_resources_pr2_description:/home/rosuser/ros2_ws/ws_moveit/install/moveit_resources_panda_description:/home/rosuser/ros2_ws/ws_moveit/install/moveit_common:/opt/ros/humble LD_LIBRARY_PATH=/home/rosuser/ros2_ws/ws_moveit/install/moveit_ros_occupancy_map_monitor/lib:/home/rosuser/ros2_ws/ws_moveit/install/moveit_core/lib:/home/rosuser/ros2_ws/ws_moveit/install/srdfdom/lib:${LD_LIBRARY_PATH} PATH=/home/rosuser/ros2_ws/ws_moveit/install/moveit_core/bin:${PATH} PYTHONPATH=/home/rosuser/ros2_ws/ws_moveit/install/moveit_configs_utils/lib/python3.10/site-packages:/home/rosuser/ros2_ws/ws_moveit/install/srdfdom/local/lib/python3.10/dist-packages:/home/rosuser/ros2_ws/ws_moveit/install/launch_param_builder/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/cmake --build /home/rosuser/ros2_ws/ws_moveit/build/moveit_ros_planning -- -j8 -l8
+[1.990s] [  2%] [32mBuilding CXX object planning_pipeline/CMakeFiles/moveit_planning_pipeline.dir/src/planning_pipeline.cpp.o[0m
+[1.990s] [  2%] [32mBuilding CXX object rdf_loader/CMakeFiles/moveit_rdf_loader.dir/src/rdf_loader.cpp.o[0m
+[1.993s] [  4%] [32mBuilding CXX object planning_request_adapter_plugins/CMakeFiles/moveit_list_request_adapter_plugins.dir/src/list.cpp.o[0m
+[1.994s] [  5%] [32mBuilding CXX object collision_plugin_loader/CMakeFiles/moveit_collision_plugin_loader.dir/src/collision_plugin_loader.cpp.o[0m
+[1.994s] [  7%] [32mBuilding CXX object gmock/CMakeFiles/gmock_main.dir/src/gmock_main.cc.o[0m
+[1.996s] [  8%] [32mBuilding CXX object planning_request_adapter_plugins/CMakeFiles/moveit_default_planning_request_adapter_plugins.dir/src/empty.cpp.o[0m
+[2.002s] [ 10%] [32mBuilding CXX object gtest/CMakeFiles/gtest_main.dir/src/gtest_main.cc.o[0m
+[2.003s] [ 11%] [32mBuilding CXX object gmock/CMakeFiles/gmock.dir/opt/ros/humble/src/gtest_vendor/src/gtest-all.cc.o[0m
+[3.591s] [ 13%] [32m[1mLinking CXX static library libgtest_main.a[0m
+[3.675s] [ 13%] Built target gtest_main
+[3.700s] [ 14%] [32mBuilding CXX object gmock/CMakeFiles/gmock.dir/src/gmock-all.cc.o[0m
+[3.923s] [ 16%] [32m[1mLinking CXX static library libgmock_main.a[0m
+[3.965s] [ 16%] Built target gmock_main
+[3.992s] [ 17%] [32mBuilding CXX object rdf_loader/CMakeFiles/moveit_rdf_loader.dir/src/synchronized_string_parameter.cpp.o[0m
+[8.409s] [ 19%] [32mBuilding CXX object planning_request_adapter_plugins/CMakeFiles/moveit_default_planning_request_adapter_plugins.dir/src/fix_start_state_bounds.cpp.o[0m
+[8.861s] [ 20%] [32mBuilding CXX object planning_request_adapter_plugins/CMakeFiles/moveit_default_planning_request_adapter_plugins.dir/src/fix_start_state_collision.cpp.o[0m
+[23.695s] [ 22%] [32m[1mLinking CXX static library libgmock.a[0m
+[23.940s] [ 22%] Built target gmock
+[24.082s] [ 23%] [32mBuilding CXX object gtest/CMakeFiles/gtest.dir/src/gtest-all.cc.o[0m
+[26.639s] [ 25%] [32m[1mLinking CXX shared library libmoveit_collision_plugin_loader.so[0m
+[27.744s] [ 25%] Built target moveit_collision_plugin_loader
+[27.829s] [ 26%] [32mBuilding CXX object planning_request_adapter_plugins/CMakeFiles/moveit_default_planning_request_adapter_plugins.dir/src/fix_start_state_path_constraints.cpp.o[0m
+[29.184s] [ 27%] [32mBuilding CXX object planning_request_adapter_plugins/CMakeFiles/moveit_default_planning_request_adapter_plugins.dir/src/fix_workspace_bounds.cpp.o[0m
+[42.980s] [ 29%] [32m[1mLinking CXX executable moveit_list_request_adapter_plugins[0m
+[43.945s] [ 29%] Built target moveit_list_request_adapter_plugins
+[43.988s] [ 30%] [32mBuilding CXX object planning_request_adapter_plugins/CMakeFiles/moveit_default_planning_request_adapter_plugins.dir/src/add_time_parameterization.cpp.o[0m
+[45.520s] [ 32%] [32m[1mLinking CXX shared library libmoveit_rdf_loader.so[0m
+[46.454s] [ 32%] Built target moveit_rdf_loader
+[46.471s] [ 33%] [32mBuilding CXX object planning_request_adapter_plugins/CMakeFiles/moveit_default_planning_request_adapter_plugins.dir/src/add_ruckig_traj_smoothing.cpp.o[0m
+[46.624s] [ 35%] [32mBuilding CXX object planning_request_adapter_plugins/CMakeFiles/moveit_default_planning_request_adapter_plugins.dir/src/add_iterative_spline_parameterization.cpp.o[0m
+[49.586s] [ 36%] [32mBuilding CXX object planning_request_adapter_plugins/CMakeFiles/moveit_default_planning_request_adapter_plugins.dir/src/add_time_optimal_parameterization.cpp.o[0m
+[50.115s] [ 38%] [32m[1mLinking CXX static library libgtest.a[0m
+[50.201s] [ 38%] Built target gtest
+[50.251s] [ 39%] [32mBuilding CXX object planning_request_adapter_plugins/CMakeFiles/moveit_default_planning_request_adapter_plugins.dir/src/resolve_constraint_frames.cpp.o[0m
+[63.982s] [ 41%] [32mBuilding CXX object kinematics_plugin_loader/CMakeFiles/moveit_kinematics_plugin_loader.dir/src/kinematics_plugin_loader.cpp.o[0m
+[76.341s] [ 42%] [32m[1mLinking CXX shared library libmoveit_planning_pipeline.so[0m
+[77.500s] [ 42%] Built target moveit_planning_pipeline
+[80.911s] [ 44%] [32m[1mLinking CXX shared library libmoveit_default_planning_request_adapter_plugins.so[0m
+[81.117s] [ 44%] Built target moveit_default_planning_request_adapter_plugins
+[85.265s] [ 45%] [32m[1mLinking CXX shared library libmoveit_kinematics_plugin_loader.so[0m
+[85.400s] [ 45%] Built target moveit_kinematics_plugin_loader
+[85.414s] [ 47%] [32mBuilding CXX object constraint_sampler_manager_loader/CMakeFiles/moveit_constraint_sampler_manager_loader.dir/src/constraint_sampler_manager_loader.cpp.o[0m
+[93.918s] [ 48%] [32m[1mLinking CXX shared library libmoveit_constraint_sampler_manager_loader.so[0m
+[94.149s] [ 48%] Built target moveit_constraint_sampler_manager_loader
+[94.162s] [ 50%] [32mBuilding CXX object robot_model_loader/CMakeFiles/moveit_robot_model_loader.dir/src/robot_model_loader.cpp.o[0m
+[98.043s] [ 51%] [32m[1mLinking CXX shared library libmoveit_robot_model_loader.so[0m
+[98.177s] [ 51%] Built target moveit_robot_model_loader
+[98.195s] [ 52%] [32mBuilding CXX object planning_components_tools/CMakeFiles/moveit_print_planning_model_info.dir/src/print_planning_model_info.cpp.o[0m
+[98.201s] [ 55%] [32mBuilding CXX object planning_scene_monitor/CMakeFiles/moveit_planning_scene_monitor.dir/src/current_state_monitor_middleware_handle.cpp.o[0m
+[98.201s] [ 55%] [32mBuilding CXX object planning_scene_monitor/CMakeFiles/moveit_planning_scene_monitor.dir/src/planning_scene_monitor.cpp.o[0m
+[98.201s] [ 57%] [32mBuilding CXX object planning_scene_monitor/CMakeFiles/moveit_planning_scene_monitor.dir/src/current_state_monitor.cpp.o[0m
+[98.201s] [ 58%] [32mBuilding CXX object planning_scene_monitor/CMakeFiles/moveit_planning_scene_monitor.dir/src/trajectory_monitor.cpp.o[0m
+[98.201s] [ 60%] [32mBuilding CXX object planning_scene_monitor/CMakeFiles/moveit_planning_scene_monitor.dir/src/trajectory_monitor_middleware_handle.cpp.o[0m
+[106.890s] [ 61%] [32m[1mLinking CXX executable moveit_print_planning_model_info[0m
+[107.381s] [ 61%] Built target moveit_print_planning_model_info
+[141.883s] [ 63%] [32m[1mLinking CXX shared library libmoveit_planning_scene_monitor.so[0m
+[142.292s] [ 63%] Built target moveit_planning_scene_monitor
+[142.315s] [ 66%] [32mBuilding CXX object planning_scene_monitor/CMakeFiles/trajectory_monitor_tests.dir/test/trajectory_monitor_tests.cpp.o[0m
+[142.315s] [ 66%] [32mBuilding CXX object planning_scene_monitor/CMakeFiles/demo_scene.dir/demos/demo_scene.cpp.o[0m
+[142.320s] [ 67%] [32mBuilding CXX object planning_scene_monitor/CMakeFiles/planning_scene_monitor_test.dir/test/planning_scene_monitor_test.cpp.o[0m
+[142.320s] [ 69%] [32mBuilding CXX object planning_components_tools/CMakeFiles/moveit_print_planning_scene_info.dir/src/print_planning_scene_info.cpp.o[0m
+[142.320s] [ 70%] [32mBuilding CXX object planning_components_tools/CMakeFiles/moveit_display_random_state.dir/src/display_random_state.cpp.o[0m
+[142.322s] [ 72%] [32mBuilding CXX object planning_scene_monitor/CMakeFiles/current_state_monitor_tests.dir/test/current_state_monitor_tests.cpp.o[0m
+[142.337s] [ 73%] [32mBuilding CXX object planning_components_tools/CMakeFiles/moveit_visualize_robot_collision_volume.dir/src/visualize_robot_collision_volume.cpp.o[0m
+[142.348s] [ 75%] [32mBuilding CXX object planning_components_tools/CMakeFiles/moveit_evaluate_collision_checking_speed.dir/src/evaluate_collision_checking_speed.cpp.o[0m
+[198.840s] [ 76%] [32m[1mLinking CXX executable moveit_print_planning_scene_info[0m
+[203.262s] [ 76%] Built target moveit_print_planning_scene_info
+[211.738s] [ 77%] [32m[1mLinking CXX executable moveit_evaluate_collision_checking_speed[0m
+[213.210s] [ 79%] [32m[1mLinking CXX executable trajectory_monitor_tests[0m
+[213.791s] [ 79%] Built target moveit_evaluate_collision_checking_speed
+[214.205s] [ 80%] [32m[1mLinking CXX executable planning_scene_monitor_test[0m
+[215.012s] [ 82%] [32m[1mLinking CXX executable current_state_monitor_tests[0m
+[215.115s] [ 83%] [32m[1mLinking CXX executable demo_scene[0m
+[215.736s] [ 83%] Built target trajectory_monitor_tests
+[215.863s] [ 83%] Built target planning_scene_monitor_test
+[215.882s] [ 83%] Built target demo_scene
+[216.117s] [ 83%] Built target current_state_monitor_tests
+[216.134s] [ 85%] [32m[1mLinking CXX executable moveit_visualize_robot_collision_volume[0m
+[216.164s] [ 86%] [32m[1mLinking CXX executable moveit_display_random_state[0m
+[216.603s] [ 86%] Built target moveit_visualize_robot_collision_volume
+[216.607s] [ 86%] Built target moveit_display_random_state
+[216.628s] [ 88%] [32mBuilding CXX object trajectory_execution_manager/CMakeFiles/moveit_trajectory_execution_manager.dir/src/trajectory_execution_manager.cpp.o[0m
+[245.861s] [ 89%] [32m[1mLinking CXX shared library libmoveit_trajectory_execution_manager.so[0m
+[246.282s] [ 89%] Built target moveit_trajectory_execution_manager
+[246.303s] [ 91%] [32mBuilding CXX object planning_components_tools/CMakeFiles/moveit_publish_scene_from_text.dir/src/publish_scene_from_text.cpp.o[0m
+[259.913s] [ 92%] [32m[1mLinking CXX executable moveit_publish_scene_from_text[0m
+[260.523s] [ 92%] Built target moveit_publish_scene_from_text
+[260.547s] [ 97%] [32mBuilding CXX object moveit_cpp/CMakeFiles/moveit_cpp.dir/src/planning_component.cpp.o[0m
+[260.547s] [ 97%] [32mBuilding CXX object moveit_cpp/CMakeFiles/moveit_cpp.dir/src/moveit_cpp.cpp.o[0m
+[260.547s] [ 97%] [32mBuilding CXX object plan_execution/CMakeFiles/moveit_plan_execution.dir/src/plan_execution.cpp.o[0m
+[275.999s] [ 98%] [32m[1mLinking CXX shared library libmoveit_plan_execution.so[0m
+[276.394s] [ 98%] Built target moveit_plan_execution
+[280.123s] [100%] [32m[1mLinking CXX shared library libmoveit_cpp.so[0m
+[280.425s] [100%] Built target moveit_cpp
+[280.457s] Invoked command in '/home/rosuser/ros2_ws/ws_moveit/build/moveit_ros_planning' returned '0': AMENT_PREFIX_PATH=/home/rosuser/ros2_ws/ws_moveit/install/moveit_ros_occupancy_map_monitor:/home/rosuser/ros2_ws/ws_moveit/install/moveit_core:/home/rosuser/ros2_ws/ws_moveit/install/moveit_resources_panda_moveit_config:/home/rosuser/ros2_ws/ws_moveit/install/moveit_configs_utils:/home/rosuser/ros2_ws/ws_moveit/install/srdfdom:/home/rosuser/ros2_ws/ws_moveit/install/moveit_resources_pr2_description:/home/rosuser/ros2_ws/ws_moveit/install/moveit_resources_panda_description:/home/rosuser/ros2_ws/ws_moveit/install/moveit_common:/home/rosuser/ros2_ws/ws_moveit/install/launch_param_builder:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/rosuser/ros2_ws/ws_moveit/install/moveit_ros_occupancy_map_monitor:/home/rosuser/ros2_ws/ws_moveit/install/moveit_core:/home/rosuser/ros2_ws/ws_moveit/install/moveit_resources_panda_moveit_config:/home/rosuser/ros2_ws/ws_moveit/install/srdfdom:/home/rosuser/ros2_ws/ws_moveit/install/moveit_resources_pr2_description:/home/rosuser/ros2_ws/ws_moveit/install/moveit_resources_panda_description:/home/rosuser/ros2_ws/ws_moveit/install/moveit_common:/opt/ros/humble LD_LIBRARY_PATH=/home/rosuser/ros2_ws/ws_moveit/install/moveit_ros_occupancy_map_monitor/lib:/home/rosuser/ros2_ws/ws_moveit/install/moveit_core/lib:/home/rosuser/ros2_ws/ws_moveit/install/srdfdom/lib:${LD_LIBRARY_PATH} PATH=/home/rosuser/ros2_ws/ws_moveit/install/moveit_core/bin:${PATH} PYTHONPATH=/home/rosuser/ros2_ws/ws_moveit/install/moveit_configs_utils/lib/python3.10/site-packages:/home/rosuser/ros2_ws/ws_moveit/install/srdfdom/local/lib/python3.10/dist-packages:/home/rosuser/ros2_ws/ws_moveit/install/launch_param_builder/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/cmake --build /home/rosuser/ros2_ws/ws_moveit/build/moveit_ros_planning -- -j8 -l8
+[280.462s] Invoking command in '/home/rosuser/ros2_ws/ws_moveit/build/moveit_ros_planning': AMENT_PREFIX_PATH=/home/rosuser/ros2_ws/ws_moveit/install/moveit_ros_occupancy_map_monitor:/home/rosuser/ros2_ws/ws_moveit/install/moveit_core:/home/rosuser/ros2_ws/ws_moveit/install/moveit_resources_panda_moveit_config:/home/rosuser/ros2_ws/ws_moveit/install/moveit_configs_utils:/home/rosuser/ros2_ws/ws_moveit/install/srdfdom:/home/rosuser/ros2_ws/ws_moveit/install/moveit_resources_pr2_description:/home/rosuser/ros2_ws/ws_moveit/install/moveit_resources_panda_description:/home/rosuser/ros2_ws/ws_moveit/install/moveit_common:/home/rosuser/ros2_ws/ws_moveit/install/launch_param_builder:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/rosuser/ros2_ws/ws_moveit/install/moveit_ros_occupancy_map_monitor:/home/rosuser/ros2_ws/ws_moveit/install/moveit_core:/home/rosuser/ros2_ws/ws_moveit/install/moveit_resources_panda_moveit_config:/home/rosuser/ros2_ws/ws_moveit/install/srdfdom:/home/rosuser/ros2_ws/ws_moveit/install/moveit_resources_pr2_description:/home/rosuser/ros2_ws/ws_moveit/install/moveit_resources_panda_description:/home/rosuser/ros2_ws/ws_moveit/install/moveit_common:/opt/ros/humble LD_LIBRARY_PATH=/home/rosuser/ros2_ws/ws_moveit/install/moveit_ros_occupancy_map_monitor/lib:/home/rosuser/ros2_ws/ws_moveit/install/moveit_core/lib:/home/rosuser/ros2_ws/ws_moveit/install/srdfdom/lib:${LD_LIBRARY_PATH} PATH=/home/rosuser/ros2_ws/ws_moveit/install/moveit_core/bin:${PATH} PYTHONPATH=/home/rosuser/ros2_ws/ws_moveit/install/moveit_configs_utils/lib/python3.10/site-packages:/home/rosuser/ros2_ws/ws_moveit/install/srdfdom/local/lib/python3.10/dist-packages:/home/rosuser/ros2_ws/ws_moveit/install/launch_param_builder/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/cmake --install /home/rosuser/ros2_ws/ws_moveit/build/moveit_ros_planning
+[280.473s] -- Install configuration: "Release"
+[280.474s] -- Installing: /home/rosuser/ros2_ws/ws_moveit/install/moveit_ros_planning/include
+[280.474s] -- Installing: /home/rosuser/ros2_ws/ws_moveit/install/moveit_ros_planning/include/moveit
+[280.474s] -- Installing: /home/rosuser/ros2_ws/ws_moveit/install/moveit_ros_planning/include/moveit/rdf_loader
+[280.474s] -- Installing: /home/rosuser/ros2_ws/ws_moveit/install/moveit_ros_planning/include/moveit/rdf_loader/synchronized_string_parameter.h
+[280.474s] -- Installing: /home/rosuser/ros2_ws/ws_moveit/install/moveit_ros_planning/include/moveit/rdf_loader/rdf_loader.h
+[280.474s] -- Installing: /home/rosuser/ros2_ws/ws_moveit/install/moveit_ros_planning/share/moveit_ros_planning/rdf_loader/test/data
+[280.475s] -- Installing: /home/rosuser/ros2_ws/ws_moveit/install/moveit_ros_planning/share/moveit_ros_planning/rdf_loader/test/data/robin.srdf.xacro
+[280.475s] -- Installing: /home/rosuser/ros2_ws/ws_moveit/install/moveit_ros_planning/share/moveit_ros_planning/rdf_loader/test/data/kermit.urdf
+[280.475s] -- Installing: /home/rosuser/ros2_ws/ws_moveit/install/moveit_ros_planning/share/moveit_ros_planning/rdf_loader/test/data/gonzo.srdf
+[280.475s] -- Installing: /home/rosuser/ros2_ws/ws_moveit/install/moveit_ros_planning/share/moveit_ros_planning/rdf_loader/test/data/gonzo.urdf
+[280.475s] -- Installing: /home/rosuser/ros2_ws/ws_moveit/install/moveit_ros_planning/share/moveit_ros_planning/rdf_loader/test/data/kermit.srdf
+[280.476s] -- Installing: /home/rosuser/ros2_ws/ws_moveit/install/moveit_ros_planning/share/moveit_ros_planning/rdf_loader/test/launch
+[280.476s] -- Installing: /home/rosuser/ros2_ws/ws_moveit/install/moveit_ros_planning/share/moveit_ros_planning/rdf_loader/test/launch/test_rdf_integration.test.py
+[280.476s] -- Up-to-date: /home/rosuser/ros2_ws/ws_moveit/install/moveit_ros_planning/include
+[280.476s] -- Up-to-date: /home/rosuser/ros2_ws/ws_moveit/install/moveit_ros_planning/include/moveit
+[280.476s] -- Installing: /home/rosuser/ros2_ws/ws_moveit/install/moveit_ros_planning/include/moveit/collision_plugin_loader
+[280.476s] -- Installing: /home/rosuser/ros2_ws/ws_moveit/install/moveit_ros_planning/include/moveit/collision_plugin_loader/collision_plugin_loader.h
+[280.476s] -- Up-to-date: /home/rosuser/ros2_ws/ws_moveit/install/moveit_ros_planning/include
+[280.476s] -- Up-to-date: /home/rosuser/ros2_ws/ws_moveit/install/moveit_ros_planning/include/moveit
+[280.476s] -- Installing: /home/rosuser/ros2_ws/ws_moveit/install/moveit_ros_planning/include/moveit/kinematics_plugin_loader
+[280.476s] -- Installing: /home/rosuser/ros2_ws/ws_moveit/install/moveit_ros_planning/include/moveit/kinematics_plugin_loader/kinematics_plugin_loader.h
+[280.476s] -- Up-to-date: /home/rosuser/ros2_ws/ws_moveit/install/moveit_ros_planning/include
+[280.476s] -- Up-to-date: /home/rosuser/ros2_ws/ws_moveit/install/moveit_ros_planning/include/moveit
+[280.477s] -- Installing: /home/rosuser/ros2_ws/ws_moveit/install/moveit_ros_planning/include/moveit/robot_model_loader
+[280.477s] -- Installing: /home/rosuser/ros2_ws/ws_moveit/install/moveit_ros_planning/include/moveit/robot_model_loader/robot_model_loader.h
+[280.477s] -- Up-to-date: /home/rosuser/ros2_ws/ws_moveit/install/moveit_ros_planning/include
+[280.477s] -- Up-to-date: /home/rosuser/ros2_ws/ws_moveit/install/moveit_ros_planning/include/moveit
+[280.477s] -- Installing: /home/rosuser/ros2_ws/ws_moveit/install/moveit_ros_planning/include/moveit/constraint_sampler_manager_loader
+[280.477s] -- Installing: /home/rosuser/ros2_ws/ws_moveit/install/moveit_ros_planning/include/moveit/constraint_sampler_manager_loader/constraint_sampler_manager_loader.h
+[280.477s] -- Up-to-date: /home/rosuser/ros2_ws/ws_moveit/install/moveit_ros_planning/include
+[280.478s] -- Up-to-date: /home/rosuser/ros2_ws/ws_moveit/install/moveit_ros_planning/include/moveit
+[280.478s] -- Installing: /home/rosuser/ros2_ws/ws_moveit/install/moveit_ros_planning/include/moveit/planning_pipeline
+[280.478s] -- Installing: /home/rosuser/ros2_ws/ws_moveit/install/moveit_ros_planning/include/moveit/planning_pipeline/planning_pipeline.h
+[280.478s] -- Installing: /home/rosuser/ros2_ws/ws_moveit/install/moveit_ros_planning/include/moveit_planning_pipeline_export.h
+[280.478s] -- Installing: /home/rosuser/ros2_ws/ws_moveit/install/moveit_ros_planning/lib/moveit_ros_planning/moveit_list_request_adapter_plugins
+[280.478s] -- Set runtime path of "/home/rosuser/ros2_ws/ws_moveit/install/moveit_ros_planning/lib/moveit_ros_planning/moveit_list_request_adapter_plugins" to ""
+[280.479s] -- Installing: /home/rosuser/ros2_ws/ws_moveit/install/moveit_ros_planning/lib/moveit_ros_planning/demo_scene
+[280.479s] -- Set runtime path of "/home/rosuser/ros2_ws/ws_moveit/install/moveit_ros_planning/lib/moveit_ros_planning/demo_scene" to ""
+[280.479s] -- Up-to-date: /home/rosuser/ros2_ws/ws_moveit/install/moveit_ros_planning/include
+[280.479s] -- Up-to-date: /home/rosuser/ros2_ws/ws_moveit/install/moveit_ros_planning/include/moveit
+[280.479s] -- Installing: /home/rosuser/ros2_ws/ws_moveit/install/moveit_ros_planning/include/moveit/planning_scene_monitor
+[280.479s] -- Installing: /home/rosuser/ros2_ws/ws_moveit/install/moveit_ros_planning/include/moveit/planning_scene_monitor/trajectory_monitor.h
+[280.480s] -- Installing: /home/rosuser/ros2_ws/ws_moveit/install/moveit_ros_planning/include/moveit/planning_scene_monitor/trajectory_monitor_middleware_handle.hpp
+[280.480s] -- Installing: /home/rosuser/ros2_ws/ws_moveit/install/moveit_ros_planning/include/moveit/planning_scene_monitor/current_state_monitor_middleware_handle.hpp
+[280.480s] -- Installing: /home/rosuser/ros2_ws/ws_moveit/install/moveit_ros_planning/include/moveit/planning_scene_monitor/planning_scene_monitor.h
+[280.480s] -- Installing: /home/rosuser/ros2_ws/ws_moveit/install/moveit_ros_planning/include/moveit/planning_scene_monitor/current_state_monitor.h
+[280.480s] -- Installing: /home/rosuser/ros2_ws/ws_moveit/install/moveit_ros_planning/include/moveit_planning_scene_monitor_export.h
+[280.480s] -- Installing: /home/rosuser/ros2_ws/ws_moveit/install/moveit_ros_planning/lib/moveit_ros_planning/moveit_print_planning_model_info
+[280.481s] -- Set runtime path of "/home/rosuser/ros2_ws/ws_moveit/install/moveit_ros_planning/lib/moveit_ros_planning/moveit_print_planning_model_info" to ""
+[280.481s] -- Installing: /home/rosuser/ros2_ws/ws_moveit/install/moveit_ros_planning/lib/moveit_ros_planning/moveit_print_planning_scene_info
+[280.481s] -- Set runtime path of "/home/rosuser/ros2_ws/ws_moveit/install/moveit_ros_planning/lib/moveit_ros_planning/moveit_print_planning_scene_info" to ""
+[280.481s] -- Installing: /home/rosuser/ros2_ws/ws_moveit/install/moveit_ros_planning/lib/moveit_ros_planning/moveit_display_random_state
+[280.481s] -- Set runtime path of "/home/rosuser/ros2_ws/ws_moveit/install/moveit_ros_planning/lib/moveit_ros_planning/moveit_display_random_state" to ""
+[280.482s] -- Installing: /home/rosuser/ros2_ws/ws_moveit/install/moveit_ros_planning/lib/moveit_ros_planning/moveit_visualize_robot_collision_volume
+[280.482s] -- Set runtime path of "/home/rosuser/ros2_ws/ws_moveit/install/moveit_ros_planning/lib/moveit_ros_planning/moveit_visualize_robot_collision_volume" to ""
+[280.482s] -- Installing: /home/rosuser/ros2_ws/ws_moveit/install/moveit_ros_planning/lib/moveit_ros_planning/moveit_evaluate_collision_checking_speed
+[280.483s] -- Set runtime path of "/home/rosuser/ros2_ws/ws_moveit/install/moveit_ros_planning/lib/moveit_ros_planning/moveit_evaluate_collision_checking_speed" to ""
+[280.483s] -- Installing: /home/rosuser/ros2_ws/ws_moveit/install/moveit_ros_planning/lib/moveit_ros_planning/moveit_publish_scene_from_text
+[280.483s] -- Set runtime path of "/home/rosuser/ros2_ws/ws_moveit/install/moveit_ros_planning/lib/moveit_ros_planning/moveit_publish_scene_from_text" to ""
+[280.484s] -- Up-to-date: /home/rosuser/ros2_ws/ws_moveit/install/moveit_ros_planning/include
+[280.484s] -- Up-to-date: /home/rosuser/ros2_ws/ws_moveit/install/moveit_ros_planning/include/moveit
+[280.484s] -- Installing: /home/rosuser/ros2_ws/ws_moveit/install/moveit_ros_planning/include/moveit/trajectory_execution_manager
+[280.484s] -- Installing: /home/rosuser/ros2_ws/ws_moveit/install/moveit_ros_planning/include/moveit/trajectory_execution_manager/trajectory_execution_manager.h
+[280.485s] -- Installing: /home/rosuser/ros2_ws/ws_moveit/install/moveit_ros_planning/include/moveit_trajectory_execution_manager_export.h
+[280.485s] -- Up-to-date: /home/rosuser/ros2_ws/ws_moveit/install/moveit_ros_planning/include
+[280.485s] -- Up-to-date: /home/rosuser/ros2_ws/ws_moveit/install/moveit_ros_planning/include/moveit
+[280.485s] -- Installing: /home/rosuser/ros2_ws/ws_moveit/install/moveit_ros_planning/include/moveit/plan_execution
+[280.485s] -- Installing: /home/rosuser/ros2_ws/ws_moveit/install/moveit_ros_planning/include/moveit/plan_execution/plan_execution.h
+[280.485s] -- Installing: /home/rosuser/ros2_ws/ws_moveit/install/moveit_ros_planning/include/moveit/plan_execution/plan_representation.h
+[280.485s] -- Up-to-date: /home/rosuser/ros2_ws/ws_moveit/install/moveit_ros_planning/include
+[280.485s] -- Up-to-date: /home/rosuser/ros2_ws/ws_moveit/install/moveit_ros_planning/include/moveit
+[280.485s] -- Installing: /home/rosuser/ros2_ws/ws_moveit/install/moveit_ros_planning/include/moveit/moveit_cpp
+[280.486s] -- Installing: /home/rosuser/ros2_ws/ws_moveit/install/moveit_ros_planning/include/moveit/moveit_cpp/moveit_cpp.h
+[280.486s] -- Installing: /home/rosuser/ros2_ws/ws_moveit/install/moveit_ros_planning/include/moveit/moveit_cpp/planning_component.h
+[280.486s] -- Installing: /home/rosuser/ros2_ws/ws_moveit/install/moveit_ros_planning/lib/libmoveit_rdf_loader.so.2.5.9
+[280.487s] -- Set runtime path of "/home/rosuser/ros2_ws/ws_moveit/install/moveit_ros_planning/lib/libmoveit_rdf_loader.so.2.5.9" to ""
+[280.487s] -- Installing: /home/rosuser/ros2_ws/ws_moveit/install/moveit_ros_planning/lib/libmoveit_rdf_loader.so
+[280.488s] -- Installing: /home/rosuser/ros2_ws/ws_moveit/install/moveit_ros_planning/lib/libmoveit_kinematics_plugin_loader.so.2.5.9
+[280.488s] -- Set runtime path of "/home/rosuser/ros2_ws/ws_moveit/install/moveit_ros_planning/lib/libmoveit_kinematics_plugin_loader.so.2.5.9" to ""
+[280.488s] -- Installing: /home/rosuser/ros2_ws/ws_moveit/install/moveit_ros_planning/lib/libmoveit_kinematics_plugin_loader.so
+[280.489s] -- Installing: /home/rosuser/ros2_ws/ws_moveit/install/moveit_ros_planning/lib/libmoveit_robot_model_loader.so.2.5.9
+[280.489s] -- Set runtime path of "/home/rosuser/ros2_ws/ws_moveit/install/moveit_ros_planning/lib/libmoveit_robot_model_loader.so.2.5.9" to ""
+[280.489s] -- Installing: /home/rosuser/ros2_ws/ws_moveit/install/moveit_ros_planning/lib/libmoveit_robot_model_loader.so
+[280.489s] -- Installing: /home/rosuser/ros2_ws/ws_moveit/install/moveit_ros_planning/lib/libmoveit_constraint_sampler_manager_loader.so.2.5.9
+[280.490s] -- Set runtime path of "/home/rosuser/ros2_ws/ws_moveit/install/moveit_ros_planning/lib/libmoveit_constraint_sampler_manager_loader.so.2.5.9" to ""
+[280.490s] -- Installing: /home/rosuser/ros2_ws/ws_moveit/install/moveit_ros_planning/lib/libmoveit_constraint_sampler_manager_loader.so
+[280.490s] -- Installing: /home/rosuser/ros2_ws/ws_moveit/install/moveit_ros_planning/lib/libmoveit_planning_pipeline.so.2.5.9
+[280.491s] -- Set runtime path of "/home/rosuser/ros2_ws/ws_moveit/install/moveit_ros_planning/lib/libmoveit_planning_pipeline.so.2.5.9" to ""
+[280.491s] -- Installing: /home/rosuser/ros2_ws/ws_moveit/install/moveit_ros_planning/lib/libmoveit_planning_pipeline.so
+[280.492s] -- Installing: /home/rosuser/ros2_ws/ws_moveit/install/moveit_ros_planning/lib/libmoveit_trajectory_execution_manager.so.2.5.9
+[280.493s] -- Set runtime path of "/home/rosuser/ros2_ws/ws_moveit/install/moveit_ros_planning/lib/libmoveit_trajectory_execution_manager.so.2.5.9" to ""
+[280.493s] -- Installing: /home/rosuser/ros2_ws/ws_moveit/install/moveit_ros_planning/lib/libmoveit_trajectory_execution_manager.so
+[280.494s] -- Installing: /home/rosuser/ros2_ws/ws_moveit/install/moveit_ros_planning/lib/libmoveit_plan_execution.so.2.5.9
+[280.494s] -- Set runtime path of "/home/rosuser/ros2_ws/ws_moveit/install/moveit_ros_planning/lib/libmoveit_plan_execution.so.2.5.9" to ""
+[280.494s] -- Installing: /home/rosuser/ros2_ws/ws_moveit/install/moveit_ros_planning/lib/libmoveit_plan_execution.so
+[280.494s] -- Installing: /home/rosuser/ros2_ws/ws_moveit/install/moveit_ros_planning/lib/libmoveit_planning_scene_monitor.so.2.5.9
+[280.505s] -- Set runtime path of "/home/rosuser/ros2_ws/ws_moveit/install/moveit_ros_planning/lib/libmoveit_planning_scene_monitor.so.2.5.9" to ""
+[280.505s] -- Installing: /home/rosuser/ros2_ws/ws_moveit/install/moveit_ros_planning/lib/libmoveit_planning_scene_monitor.so
+[280.505s] -- Installing: /home/rosuser/ros2_ws/ws_moveit/install/moveit_ros_planning/lib/libmoveit_collision_plugin_loader.so.2.5.9
+[280.505s] -- Set runtime path of "/home/rosuser/ros2_ws/ws_moveit/install/moveit_ros_planning/lib/libmoveit_collision_plugin_loader.so.2.5.9" to ""
+[280.505s] -- Installing: /home/rosuser/ros2_ws/ws_moveit/install/moveit_ros_planning/lib/libmoveit_collision_plugin_loader.so
+[280.505s] -- Installing: /home/rosuser/ros2_ws/ws_moveit/install/moveit_ros_planning/lib/libmoveit_default_planning_request_adapter_plugins.so.2.5.9
+[280.506s] -- Set runtime path of "/home/rosuser/ros2_ws/ws_moveit/install/moveit_ros_planning/lib/libmoveit_default_planning_request_adapter_plugins.so.2.5.9" to ""
+[280.506s] -- Installing: /home/rosuser/ros2_ws/ws_moveit/install/moveit_ros_planning/lib/libmoveit_default_planning_request_adapter_plugins.so
+[280.507s] -- Installing: /home/rosuser/ros2_ws/ws_moveit/install/moveit_ros_planning/lib/libmoveit_cpp.so.2.5.9
+[280.507s] -- Set runtime path of "/home/rosuser/ros2_ws/ws_moveit/install/moveit_ros_planning/lib/libmoveit_cpp.so.2.5.9" to ""
+[280.507s] -- Installing: /home/rosuser/ros2_ws/ws_moveit/install/moveit_ros_planning/lib/libmoveit_cpp.so
+[280.507s] -- Installing: /home/rosuser/ros2_ws/ws_moveit/install/moveit_ros_planning/share/moveit_ros_planning/environment/library_path.sh
+[280.508s] -- Installing: /home/rosuser/ros2_ws/ws_moveit/install/moveit_ros_planning/share/moveit_ros_planning/environment/library_path.dsv
+[280.508s] -- Installing: /home/rosuser/ros2_ws/ws_moveit/install/moveit_ros_planning/share/moveit_ros_planning/planning_request_adapters_plugin_description.xml
+[280.508s] -- Installing: /home/rosuser/ros2_ws/ws_moveit/install/moveit_ros_planning/share/ament_index/resource_index/package_run_dependencies/moveit_ros_planning
+[280.508s] -- Installing: /home/rosuser/ros2_ws/ws_moveit/install/moveit_ros_planning/share/ament_index/resource_index/parent_prefix_path/moveit_ros_planning
+[280.508s] -- Installing: /home/rosuser/ros2_ws/ws_moveit/install/moveit_ros_planning/share/moveit_ros_planning/environment/ament_prefix_path.sh
+[280.510s] -- Installing: /home/rosuser/ros2_ws/ws_moveit/install/moveit_ros_planning/share/moveit_ros_planning/environment/ament_prefix_path.dsv
+[280.510s] -- Installing: /home/rosuser/ros2_ws/ws_moveit/install/moveit_ros_planning/share/moveit_ros_planning/environment/path.sh
+[280.510s] -- Installing: /home/rosuser/ros2_ws/ws_moveit/install/moveit_ros_planning/share/moveit_ros_planning/environment/path.dsv
+[280.510s] -- Installing: /home/rosuser/ros2_ws/ws_moveit/install/moveit_ros_planning/share/moveit_ros_planning/local_setup.bash
+[280.510s] -- Installing: /home/rosuser/ros2_ws/ws_moveit/install/moveit_ros_planning/share/moveit_ros_planning/local_setup.sh
+[280.511s] -- Installing: /home/rosuser/ros2_ws/ws_moveit/install/moveit_ros_planning/share/moveit_ros_planning/local_setup.zsh
+[280.511s] -- Installing: /home/rosuser/ros2_ws/ws_moveit/install/moveit_ros_planning/share/moveit_ros_planning/local_setup.dsv
+[280.511s] -- Installing: /home/rosuser/ros2_ws/ws_moveit/install/moveit_ros_planning/share/moveit_ros_planning/package.dsv
+[280.511s] -- Installing: /home/rosuser/ros2_ws/ws_moveit/install/moveit_ros_planning/share/ament_index/resource_index/packages/moveit_ros_planning
+[280.511s] -- Installing: /home/rosuser/ros2_ws/ws_moveit/install/moveit_ros_planning/share/ament_index/resource_index/moveit_core__pluginlib__plugin/moveit_ros_planning
+[280.511s] -- Installing: /home/rosuser/ros2_ws/ws_moveit/install/moveit_ros_planning/share/moveit_ros_planning/cmake/export_moveit_ros_planningExport.cmake
+[280.512s] -- Installing: /home/rosuser/ros2_ws/ws_moveit/install/moveit_ros_planning/share/moveit_ros_planning/cmake/export_moveit_ros_planningExport-release.cmake
+[280.512s] -- Installing: /home/rosuser/ros2_ws/ws_moveit/install/moveit_ros_planning/share/moveit_ros_planning/cmake/ConfigExtras.cmake
+[280.513s] -- Installing: /home/rosuser/ros2_ws/ws_moveit/install/moveit_ros_planning/share/moveit_ros_planning/cmake/ament_cmake_export_targets-extras.cmake
+[280.513s] -- Installing: /home/rosuser/ros2_ws/ws_moveit/install/moveit_ros_planning/share/moveit_ros_planning/cmake/ament_cmake_export_dependencies-extras.cmake
+[280.513s] -- Installing: /home/rosuser/ros2_ws/ws_moveit/install/moveit_ros_planning/share/moveit_ros_planning/cmake/moveit_ros_planningConfig.cmake
+[280.513s] -- Installing: /home/rosuser/ros2_ws/ws_moveit/install/moveit_ros_planning/share/moveit_ros_planning/cmake/moveit_ros_planningConfig-version.cmake
+[280.513s] -- Installing: /home/rosuser/ros2_ws/ws_moveit/install/moveit_ros_planning/share/moveit_ros_planning/package.xml
+[280.516s] Invoked command in '/home/rosuser/ros2_ws/ws_moveit/build/moveit_ros_planning' returned '0': AMENT_PREFIX_PATH=/home/rosuser/ros2_ws/ws_moveit/install/moveit_ros_occupancy_map_monitor:/home/rosuser/ros2_ws/ws_moveit/install/moveit_core:/home/rosuser/ros2_ws/ws_moveit/install/moveit_resources_panda_moveit_config:/home/rosuser/ros2_ws/ws_moveit/install/moveit_configs_utils:/home/rosuser/ros2_ws/ws_moveit/install/srdfdom:/home/rosuser/ros2_ws/ws_moveit/install/moveit_resources_pr2_description:/home/rosuser/ros2_ws/ws_moveit/install/moveit_resources_panda_description:/home/rosuser/ros2_ws/ws_moveit/install/moveit_common:/home/rosuser/ros2_ws/ws_moveit/install/launch_param_builder:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/rosuser/ros2_ws/ws_moveit/install/moveit_ros_occupancy_map_monitor:/home/rosuser/ros2_ws/ws_moveit/install/moveit_core:/home/rosuser/ros2_ws/ws_moveit/install/moveit_resources_panda_moveit_config:/home/rosuser/ros2_ws/ws_moveit/install/srdfdom:/home/rosuser/ros2_ws/ws_moveit/install/moveit_resources_pr2_description:/home/rosuser/ros2_ws/ws_moveit/install/moveit_resources_panda_description:/home/rosuser/ros2_ws/ws_moveit/install/moveit_common:/opt/ros/humble LD_LIBRARY_PATH=/home/rosuser/ros2_ws/ws_moveit/install/moveit_ros_occupancy_map_monitor/lib:/home/rosuser/ros2_ws/ws_moveit/install/moveit_core/lib:/home/rosuser/ros2_ws/ws_moveit/install/srdfdom/lib:${LD_LIBRARY_PATH} PATH=/home/rosuser/ros2_ws/ws_moveit/install/moveit_core/bin:${PATH} PYTHONPATH=/home/rosuser/ros2_ws/ws_moveit/install/moveit_configs_utils/lib/python3.10/site-packages:/home/rosuser/ros2_ws/ws_moveit/install/srdfdom/local/lib/python3.10/dist-packages:/home/rosuser/ros2_ws/ws_moveit/install/launch_param_builder/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/cmake --install /home/rosuser/ros2_ws/ws_moveit/build/moveit_ros_planning
